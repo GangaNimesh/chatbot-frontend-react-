@@ -111,3 +111,24 @@ header h2 {
   opacity: 1;
   background: #007bff;
 }
+/* Allow body to scroll normally */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Container takes full height but allows scroll */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make sections tall enough to create overflow */
+.top-section,
+.main-section,
+.contact-section {
+  padding: 80px 20px;
+}
