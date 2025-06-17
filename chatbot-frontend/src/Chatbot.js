@@ -205,7 +205,6 @@ const Chatbot = () => {
         </div>
       </div>
 
-      {/* Inline CSS to style message bubbles */}
       <style>{`
         .bubble {
           max-width: 75%;

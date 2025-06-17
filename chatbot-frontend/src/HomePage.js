@@ -42,7 +42,6 @@ const HomePage = () => {
         </div>
       </div>
 
-      {/* Chatbot floating button */}
       <button onClick={goToChatbot} className="chatbot-btn">
         <FaComments size={24} />
       </button>
