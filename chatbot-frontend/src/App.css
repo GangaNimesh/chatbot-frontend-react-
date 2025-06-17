@@ -1,0 +1,174 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-image {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  width: 130vw;
+  height: 130vh;
+  background-image: url("https://innovature.ai/wp-content/uploads/2024/02/lgo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  z-index: -1;
+}
+
+.overlay.faded {
+  background: rgba(21, 23, 26, 0.8);
+}
+
+.chat-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.chat-box {
+  width: 100%;
+  height: 70vh;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 70%;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.user {
+  align-self: flex-end;
+  background: rgba(132, 192, 245, 0.95);
+  color: rgb(26, 21, 21);
+  border-bottom-right-radius: 0;
+}
+
+.bot {
+  align-self: flex-start;
+  background: rgba(238, 241, 243, 0.95);
+  color: rgb(35, 39, 41);
+  border-bottom-left-radius: 0;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #c9dff3;
+  color: #020202;
+}
+
+.send-btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.circle-send {
+  display: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #007bff;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.circle-send:hover {
+  background: #0056b3;
+}
+
+.reset-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.reset-btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  background: #f53243;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #a71d2a;
+}
+
+@media (max-width: 767px) {
+  .send-btn {
+    display: none;
+  }
+  .circle-send {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-image {
+    width: 180vw;
+    height: 180vh;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+
+  .chat-wrapper {
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+
+  .overlay {
+    background: none !important;
+  }
+}

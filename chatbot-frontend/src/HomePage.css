@@ -1,0 +1,118 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  min-height: 200vh; /* increased height to enable scrolling */
+  position: relative;
+}
+
+/* Top white section */
+.top-section {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+/* Main section with background */
+.main-section {
+  background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+/* Dark overlay */
+.main-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+header h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #b6defa;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  color: #f7cfcf;
+  margin: 10px 0 30px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #f4f4f4;
+}
+
+/* Chatbot floating button */
+.chatbot-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Scroll-to-top button */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.scroll-top-btn:hover {
+  opacity: 1;
+  background: #007bff;
+}

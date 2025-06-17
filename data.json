@@ -1,0 +1,420 @@
+{
+  "cloud_monitoring": {
+    "summary": "Proactive cloud care with minimal downtime.",
+    "approach": "Automation + human process.",
+    "services": [
+      "Setup (network/storage)",
+      "Cost Optimization",
+      "Infra Health Checks",
+      "Security Monitoring"
+    ],
+    "maintenance": [
+      "24/7 Monitoring",
+      "Remote/On-site Support",
+      "Patching & Backups",
+      "Performance Tuning"
+    ],
+    "contact": "sales@innovature.ai",
+    "offices": ["India", "Singapore", "Canada", "Japan (HQ)", "USA"],
+    "industries": ["Retail", "Media", "EdTech", "Telecom", "Healthcare", "Finance"]
+  },
+  "cloud_architecture_planning": {
+    "summary": "Scalable, secure cloud solutions.",
+    "offerings": [
+      "Architecture & Strategy",
+      "Infra Planning",
+      "Security & Compliance",
+      "Migration (public/private/hybrid)",
+      "Data Management",
+      "Cloud Native Services"
+    ]
+  },
+  "devops": {
+    "summary": "Faster delivery, better performance.",
+    "offerings": [
+      "Managed DevOps",
+      "CI: Auto-test code",
+      "CD: Auto-release",
+      "Infra Management"
+    ]
+  },
+  "data_analytics_big_data": {
+    "summary": "Analytics + AI for transformation.",
+    "services": [
+      "Strategy & GDPR Planning",
+      "Architecture & Governance",
+      "ETL/ELT & Multi-cloud",
+      "Agile Dashboards"
+    ],
+    "pillars": [
+      "Lakehouse",
+      "Visualization",
+      "Predictive ML"
+    ],
+    "platforms": ["AWS", "Azure", "GCP", "Snowflake", "Synapse"]
+  },
+  "ai_services": {
+    "summary": "Scalable, adaptive AI systems.",
+    "workflow": [
+      "Cloud-based AI Infra",
+      "Data Cleaning & RAG",
+      "Modeling (NLU, predictions)",
+      "MLOps Deployment"
+    ]
+  },
+  "software_development": {
+    "summary": "Custom, scalable software solutions.",
+    "delivery": [
+      "Architecture Design",
+      "Agile Pods",
+      "MVP to Product",
+      "Support & Updates"
+    ],
+    "offerings": [
+      "Web & Mobile Apps",
+      "Custom Software",
+      "Enterprise Solutions",
+      "APIs",
+      "Maintenance"
+    ]
+  },
+  "product_experience_design": {
+    "summary": "User-centered functional design.",
+    "framework": [
+      "Research",
+      "UX Architecture",
+      "UI Design",
+      "Handoff"
+    ],
+    "offerings": [
+      "UX Strategy",
+      "Prototypes",
+      "UI Systems",
+      "Responsive & Accessible Design",
+      "Usability Testing"
+    ]
+  },
+  "software_testing_qa": {
+    "summary": "Fast, high-confidence QA.",
+    "strengths": [
+      "Global Standards (OWASP, WCAG, ISO)",
+      "Reliability & Security",
+      "Integrated or Standalone"
+    ],
+    "services": [
+      "Functional Testing",
+      "Accessibility",
+      "Compatibility",
+      "Security",
+      "Performance"
+    ]
+  },
+  "software_testing_qa_metrics": {
+    "performance": {
+      "release_cycle": "40%",
+      "security": "100%",
+      "defect_fix": "99% pre-release"
+    },
+    "tools": ["Selenium", "Cypress", "Playwright"]
+  },
+  "startup_consulting": {
+    "why": "Support from idea to growth via strategy, incubation, and tech talent.",
+    "highlights": [
+      "Rapid MVP via low-code/no-code",
+      "Faster product launch",
+      "Proven scaling strategies"
+    ],
+    "framework": {
+      "discovery": "Feasibility, benchmarking, early validation.",
+      "mvp_dev": "Fast MVP with cloud, DevOps, compliance.",
+      "gtm": "Branding, GTM, monetization.",
+      "scaling": "Talent, offshore pods, payroll, ops."
+    },
+    "services": [
+      "Market validation",
+      "GTM strategy",
+      "Growth & hiring"
+    ]
+  },
+  "global_capability_centers": {
+    "summary": "Offshore teams with full control.",
+    "benefits": ["Faster innovation", "Global talent", "Cost savings"],
+    "stats": [
+      "75% Fortune 500 use GCCs",
+      "18M STEM grads in India by 2027"
+    ],
+    "framework": {
+      "discovery": "Use case + feasibility",
+      "legal": "Entity, infra, compliance",
+      "talent": "Hiring, onboarding, payroll",
+      "scale": "Governance, maturity"
+    },
+    "models": ["BOT/BOTT", "Managed Services"],
+    "contact": "sales@innovature.ai"
+  },
+  "retail_solutions": {
+    "overview": {
+      "demand": "Data-driven insights + financing.",
+      "compliance": "Policy alignment"
+    },
+    "operations": [
+      "E-commerce integration",
+      "Unified sales & marketing",
+      "Custom CX"
+    ],
+    "automation": [
+      "Automate: inventory, display, invoicing, orders, queries",
+      "RPA for ROI and cost-cutting"
+    ],
+    "digital": [
+      "Behavior analytics",
+      "In-store mobile ads",
+      "Personalized experiences"
+    ],
+    "ux": [
+      "AI stacking, navigation, recommendations",
+      "Efficiency + reduced workforce"
+    ],
+    "insights": [
+      "Data from all touchpoints",
+      "Drive innovation"
+    ],
+    "security": [
+      "AI + blockchain protection",
+      "Efficient & compliant infra"
+    ],
+    "apps": "Build key internal & customer-facing apps"
+  },
+"advertising_media": {
+    "core": [
+      "Cloud + blockchain content delivery",
+      "Audience analytics",
+      "Blockchain for IP + payments"
+    ],
+    "features": [
+      "Churn Analytics",
+      "Live Audience Insights",
+      "Social Media Analytics",
+      "Fast Content Delivery",
+      "IP Protection via Blockchain",
+      "Blockchain Micro-Payments"
+    ],
+    "desc": {
+      "churn": "Smart reports using user + billing + social data.",
+      "insights": "Track views, clicks, interests for better ROI.",
+      "social": "Analyze OTT/social usage to optimize campaigns.",
+      "delivery": "Low-code, device-agnostic, cloud platform.",
+      "ip": "Track asset lifecycle with blockchain ledger.",
+      "payments": "Real-time crypto billing systems."
+    },
+    "note": "Build solid internal and customer apps with expert tech teams."
+  },
+  "education": {
+    "features": [
+      "Digital Classrooms",
+      "Online Proctoring",
+      "Video Learning",
+      "School Bus Tracker",
+      "RPA Admin Tasks",
+      "Multi-Language Transcription"
+    ],
+    "desc": {
+      "Digital Classrooms": "Face-to-face digital learning, content + notes.",
+      "Online Proctoring": "Multi-layer auth + anti-cheat for secure exams.",
+      "Video Learning": "24/7 access + social-enabled learning.",
+      "School Bus Tracker": "Bus safety + fleet tracking in one view.",
+      "RPA Admin Tasks": "Auto admissions, attendance, schedules.",
+      "Multi-Language Transcription": "NLP for multi-format audio/text translation."
+    },
+    "note": "Right tech team = better education apps."
+  },
+  "telecom": {
+    "core": [
+      "RCS Messaging",
+      "Telecom Digitalization",
+      "Network Inventory",
+      "Geo-Data Analytics",
+      "IP + Optical Networks",
+      "BSS Systems"
+    ],
+    "note": "Strong apps boost telecom success."
+  },
+  "healthcare": {
+    "features": [
+      "HIPAA Apps",
+      "Health Analytics",
+      "Medical Transcription",
+      "Clinical Data Capture",
+      "Hospital Mgmt Systems",
+      "Healthcare RPA"
+    ]
+  },
+  "utilities": {
+    "core": [
+      "IoT Solutions",
+      "End-User Computing",
+      "BC Planning",
+      "Survey Systems",
+      "Meter Mgmt",
+      "Field Services"
+    ]
+  },
+  "finance": {
+    "features": [
+      "Online Trading",
+      "Mobile Money",
+      "Crypto Advisory",
+      "Customer Analytics",
+      "Blockchain Ledgers",
+      "Finance RPA"
+    ]
+  },
+  "ecommerce": {
+    "features": [
+      "Recommendations",
+      "Fraud Detection",
+      "Visual Search",
+      "Sentiment Analysis",
+      "Categorization",
+      "Inventory Forecast"
+    ],
+    "note": "Innovature = smarter e-commerce apps."
+  },
+"blogs": [
+    {
+      "title": "LLMs Changing SEO",
+      "author": "Naoki Suzuki",
+      "date": "May 28, 2025",
+      "summary": "LLMs transforming SEO."
+    },
+    {
+      "title": "Strategic Partners for Startups",
+      "author": "Anand Sarath",
+      "date": "May 20, 2025",
+      "summary": "Why partnerships matter for growth."
+    },
+    {
+      "title": "Zoho CRM for Scaling",
+      "author": "Anand Sarath",
+      "date": "May 13, 2025",
+      "summary": "Grow & retain customers using Zoho."
+    },
+    {
+      "title": "GPT-4 vs Bedrock for AI Tools",
+      "author": "Naoki Suzuki",
+      "date": "May 8, 2025",
+      "summary": "Compare GPT-4 & Bedrock for in-house tools."
+    }
+  ],
+  "highlights": [
+    "E-comm Compliance Risks",
+    "Captive Centers in Tech",
+    "European Accessibility Act",
+    "Zoho Projects Saves Time"
+  ],
+  "contact": {
+    "fields": ["Name", "Email", "Phone", "Message"],
+    "email": "sales@innovature.ai",
+    "offices": ["India", "Singapore", "Canada", "Japan", "USA"]
+  },
+  
+      "case_studies": {
+        "travel": "Digital Camping Innovation",
+        "health": "AI for Healthy Eating",
+        "it": "AI in Waste Management",
+        "utility": "ERP for Power Co."
+      },
+      "recent": [
+        "Customer Service Revamp – Electric Co.",
+        "Video Campaign for Surveys",
+        "ML for Person Detection",
+        "AI Chatbot Success Story"
+      ],
+    "overview": {
+      "desc": "Global digital & consulting leader (est. 2005), empowering digital growth.",
+      "focus": {
+        "expertise": "Custom tech for healthcare, retail, finance, etc.",
+        "execution": "End-to-end delivery with client focus.",
+        "excellence": "Innovation + ISO 27001 compliance."
+      },
+      "vision_mission": {
+        "vision": "Innovate for a better future.",
+        "mission": "Deliver top digital solutions that delight."
+      },
+      "values": {
+        "customer": "Deliver excellent service.",
+        "team": "Achieve via teamwork.",
+        "community": "Give back and support."
+      },
+      "presence": ["India", "Singapore", "Canada", "Japan", "USA"]
+    },
+  
+  "careers": {
+    "intro": "Explore New Horizons",
+    "why_join": [
+      "Innovate the future with breakthrough tech.",
+      "Grow with impact-driven teams.",
+      "Empower your learning & action.",
+      "Make a real difference."
+    ],
+    "values": {
+      "customer": "Deliver excellence.",
+      "team": "Collaborative growth.",
+      "community": "Societal impact focus."
+    },
+    "openings": {
+      "location": "Infopark – Kochi",
+      "roles": [
+        "AI Engineer",
+        "Full Stack Lead",
+        "Full Stack Dev (Python/React)",
+        "Tech Lead",
+        "Python Lead",
+        "Project Manager",
+        "QA Engineer",
+        "Tech Architect",
+        "Sales Ops Manager",
+        "Android Dev"
+      ]
+    },
+    "life": {
+      "culture": "Integrate, Collaborate, Celebrate",
+      "focus": "Fun, support, empowerment, wellness.",
+      "benefits": [
+        "Meals & Cafeteria",
+        "Food Vouchers",
+        "Transport",
+        "Sports Access",
+        "Training",
+        "Team Outings",
+        "Health Checkups"
+      ],
+      "highlights": [
+        "Work-life balance",
+        "Be yourself, work hard, have fun",
+        "Festivals & team events"
+      ],
+      "teams": [
+        "Japan Team, QA, Admin, Band, Sports, Culture",
+        "Competitions & gatherings"
+      ]
+    }
+  },
+  "management": {
+    "motto": "Work hard, be yourself, have fun!",
+    "team": {
+      "desc": "Global leaders driving innovation, growth, and values.",
+      "leaders": [
+        { "name": "Gijo Sivan", "role": "CEO, Global" },
+        { "name": "Ravindranath A V", "role": "CEO, Americas" },
+        { "name": "Tiby Kuruvila", "role": "Chief Advisor" },
+        { "name": "Yoshitaka Nakayama", "role": "VP, Strategic Dev" },
+        { "name": "Akira Furusawa", "role": "Biz Dev" },
+        { "name": "Jesper Bågeman", "role": "Partner, Tech" },
+        { "name": "Wahbe Rezek", "role": "AI & Deep Tech Advisor" },
+        { "name": "Unnikrishnan S", "role": "VP" },
+        { "name": "Meghna George", "role": "People Ops Head" }
+      ]
+    }
+  }
+}

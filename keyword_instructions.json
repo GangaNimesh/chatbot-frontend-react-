@@ -1,0 +1,54 @@
+{
+    "cloud": "Focus on Innovature's Cloud Monitoring, Architecture, and Planning services.",
+    "devops": "Explain Innovature's DevOps Services including CI/CD and Infrastructure Management.",
+    "analytics": "Provide details about Innovature's Data Analytics and Big Data services.",
+    "ai": "Answer with information about Innovature's AI Services such as Conversational AI, Predictive Analytics, and Computer Vision.",
+    "software": "Discuss Innovature's Software Development & Tech Pods offerings.",
+    "design": "Focus on Innovature's Product & Experience Design principles and offerings.",
+    "qa": "Highlight Innovature’s Software Testing services, tools used like Selenium, Playwright, and impact metrics.",
+    "testing": "Same as QA: Highlight Innovature’s Software Testing services and methodologies.",
+    "contact": "Give contact details and office locations of Innovature.",
+    "pricing": "Mention pricing plans or cost optimization services if available.",
+
+    "startup": "Discuss Innovature’s Startup Consulting Services including MVP development, GTM strategies, and growth planning.",
+    "gcc": "Explain Innovature’s Global Capability Centers (GCC) services, benefits, models like BOT/BOTT, and talent acquisition support.",
+    "retail": "Describe Innovature’s Retail Solutions including demand generation, automation, personalization, and AI in retail.",
+    "media": "Talk about Innovature’s Advertising and Media Solutions like churn analytics, blockchain content protection, and social media insights.",
+
+    "blockchain": "Focus on how Innovature uses blockchain for IP protection, secure payments, ledgers, and anti-fraud in various domains.",
+    "rpa": "Describe Robotic Process Automation in sectors like education, healthcare, finance, and retail.",
+    "ml": "Explain how machine learning is used for predictions, recommendations, and analytics.",
+    "nlp": "Highlight NLP-based translation, transcription, and sentiment analysis capabilities.",
+    "iot": "Cover IoT applications in utilities and real-time monitoring services.",
+    "ar": "Explain use of Augmented Reality in field services, retail, and immersive AI.",
+    "vr": "Mention Virtual Reality implementations in training and simulation experiences.",
+
+    "security": "Highlight services that improve security, such as threat detection, HIPAA compliance, and blockchain-based solutions.",
+    "performance": "Mention performance optimization in cloud, QA, education, and telecom.",
+    "automation": "Discuss automation in business workflows using RPA, AI, and cloud-native tools.",
+    "user experience": "Talk about user-centered design, UX research, responsive and accessible designs.",
+    "support": "Mention 24/7 support, maintenance services, and incident management offerings.",
+    "mvp": "Mention Innovature’s rapid MVP development using low-code/no-code tools.",
+
+    "seo": "Summarize blog 'Keywords to Conversations: How LLMs are changing SEO' by Naoki Suzuki.",
+    "zoho projects": "Mention time-saving benefits from using Zoho Projects as described in the blog.",
+
+    "camping": "Explain how Innovature digitized camping experiences in travel & tourism.",
+    "diet coaching": "Summarize AI-powered dietary transformation in health & wellness.",
+    "waste management": "Describe AI-driven waste management innovation for IT services.",
+    "erp utilities": "Highlight custom ERP solutions for power & utility sector.",
+    "customer service": "Discuss transformation of electric company’s customer operations.",
+    "survey management": "Explain how video campaigns optimized online surveys.",
+    "person detection": "Summarize ML-powered person detection and identification use case.",
+    "ai chatbot": "Mention the chatbot case study that elevated customer service experience.",
+
+    "overview": "Summarize Innovature’s foundation, expertise, execution, and excellence.",
+    "vision": "State Innovature’s mission and vision toward digital innovation.",
+    "values": "Mention core values like customer commitment, teamwork, and community care.",
+    "global": "List countries where Innovature has offices—India, Singapore, Canada, Japan, USA.",
+
+    "careers": "Summarize Innovature’s career opportunities and workplace culture.",
+    "jobs": "List current openings including AI Engineer, Full-Stack Developer, QA Engineer, and more.",
+    "culture": "Explain the culture of innovation, growth, and impact at Innovature."
+
+}
