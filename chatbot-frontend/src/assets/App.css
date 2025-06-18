@@ -68,13 +68,13 @@
 .user {
   align-self: flex-end;
   background: rgba(132, 192, 245, 0.95);
-  color: rgb(26, 21, 21);
+  color: rgb(231, 226, 226);
   border-bottom-right-radius: 0;
 }
 
 .bot {
   align-self: flex-start;
-  background: rgba(238, 241, 243, 0.95);
+  background: rgba(216, 212, 212, 0.95);
   color: rgb(35, 39, 41);
   border-bottom-left-radius: 0;
 }
@@ -197,4 +197,30 @@ input[type="text"] {
   border-bottom-left-radius: 0;
   margin-right: auto;
 }
+.chat-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.chat-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  height: 85%;
+  background-color: rgba(255, 251, 251, 0.92);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+
 

@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import './App.css';
+import React, { useState, useRef, useEffect } from 'react';
+import '../assets/App.css';
 
 const Chatbot = () => {
   const chatBoxRef = useRef(null);
@@ -102,7 +102,11 @@ const Chatbot = () => {
       width: "90%",
       maxWidth: "600px",
       padding: "20px",
-      zIndex: 2
+      backgroundColor: windowWidth >= 1200 ? "#ffffff" : "transparent",
+      borderRadius: windowWidth >= 1200 ? "12px" : "0",
+      boxShadow: windowWidth >= 1200 ? "0 0 12px rgba(0,0,0,0.2)" : "none",
+      zIndex: 2,
+      transition: "all 0.3s ease"
     },
     sendBtn: {
       display: windowWidth > 767 ? "inline-block" : "none"

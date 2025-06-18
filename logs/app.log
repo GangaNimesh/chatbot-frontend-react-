@@ -19,3 +19,38 @@
 [2025-06-18 11:46:38,963] INFO in __init__: App created and blueprint registered.
 [2025-06-18 11:46:39,303] INFO in __init__: Logging is set up.
 [2025-06-18 11:46:55,916] INFO in __init__: App created and blueprint registered.
+[2025-06-18 12:10:21,158] INFO in __init__: Logging is set up.
+[2025-06-18 12:11:48,889] INFO in __init__: Logging is set up.
+[2025-06-18 12:12:04,183] INFO in __init__: App created and blueprint registered.
+[2025-06-18 12:12:04,513] INFO in __init__: Logging is set up.
+[2025-06-18 12:12:21,191] INFO in __init__: App created and blueprint registered.
+[2025-06-18 12:28:11,056] INFO in routes: Received message: hi
+[2025-06-18 12:28:11,861] INFO in user_service: Groq API responded successfully.
+[2025-06-18 12:28:11,863] INFO in routes: Bot response: Hello, how can I assist you today?
+[2025-06-18 13:38:45,709] INFO in __init__: Logging is set up.
+[2025-06-18 13:39:06,680] INFO in __init__: App created and blueprint registered.
+[2025-06-18 13:39:07,379] INFO in __init__: Logging is set up.
+[2025-06-18 13:39:31,755] INFO in __init__: App created and blueprint registered.
+[2025-06-18 13:39:59,084] INFO in routes: Received message: hi
+[2025-06-18 13:39:59,902] INFO in user_service: Groq API responded successfully.
+[2025-06-18 13:39:59,902] INFO in routes: Bot response: Hello, how can I assist you today?
+[2025-06-18 13:40:16,743] INFO in routes: Received message: toogle
+[2025-06-18 13:40:17,446] INFO in user_service: Groq API responded successfully.
+[2025-06-18 13:40:17,448] INFO in routes: Bot response: It seems like you've entered "toogle" which doesn't appear to be related to the provided information. Could you please provide more context or clarify your question so I can better assist you?
+[2025-06-18 13:40:33,359] INFO in routes: Received message: innovature
+[2025-06-18 13:40:34,134] INFO in user_service: Groq API responded successfully.
+[2025-06-18 13:40:34,136] INFO in routes: Bot response: Innovature is a global software company that empowers businesses across industries with digital solutions, including Cloud, Data, AI, and Consulting, to scale faster, operate safer, and grow smarter. They have deep domain expertise and a unique "insource quality, outsource execution" model, helping enterprises unlock long-term value through purposeful digital transformation.
+[2025-06-18 13:40:45,919] INFO in routes: Received message: vision
+[2025-06-18 13:40:45,920] INFO in routes: Matched keywords: ['vision']
+[2025-06-18 13:40:46,606] INFO in user_service: Groq API responded successfully.
+[2025-06-18 13:40:46,608] INFO in routes: Bot response: Innovature's vision is "Innovate for a better future." Their mission is "Deliver top digital solutions that delight."
+[2025-06-18 13:40:57,143] INFO in routes: Received message: mission
+[2025-06-18 13:40:57,845] INFO in user_service: Groq API responded successfully.
+[2025-06-18 13:40:57,848] INFO in routes: Bot response: Innovature's mission is "Deliver top digital solutions that delight."
+[2025-06-18 14:48:32,844] INFO in __init__: Logging is set up.
+[2025-06-18 14:48:51,883] INFO in __init__: App created and blueprint registered.
+[2025-06-18 14:48:52,197] INFO in __init__: Logging is set up.
+[2025-06-18 14:49:09,413] INFO in __init__: App created and blueprint registered.
+[2025-06-18 14:49:09,446] INFO in user_service: User input received: hi
+[2025-06-18 14:49:10,125] INFO in user_service: Groq API responded successfully.
+[2025-06-18 14:49:10,127] INFO in user_service: Bot response: Hello, how can I assist you today?

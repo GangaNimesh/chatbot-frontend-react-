@@ -1,9 +1,19 @@
-import os#for reading environment variables
-import requests#for making HTTP requests
-from flask import current_app#for logging
+import os
+import json
+import requests
+from flask import current_app, jsonify
+from app.utils.helpers import scrape_website_selenium, load_manual_data, load_keyword_instructions
+from app.models.session_store import conversation_history
 
 API_KEY = os.getenv("GROQ_API_KEY")
 URL = "https://api.groq.com/openai/v1/chat/completions"
+
+# Preload data once
+manual_data = load_manual_data()
+keyword_instructions = load_keyword_instructions()
+scraped_site_data = scrape_website_selenium("https://innovature.ai/")
+site_data = json.dumps(manual_data, indent=2) + "\n" + scraped_site_data
+
 
 def chat_with_groq(user_prompt, context_data):
     headers = {
@@ -38,7 +48,33 @@ def chat_with_groq(user_prompt, context_data):
             return result
         else:
             current_app.logger.error(f"Groq API error {response.status_code}: {response.text}")
-            return f"Error: {response.text}"
-    except Exception as e:
-        current_app.logger.exception("Exception occurred while communicating with Groq API.")
-        return f"Exception: {str(e)}"
+            return "Something went wrong"
+    except Exception:
+        current_app.logger.exception("Exception while calling Groq API.")
+        return "Something went wrong"
+
+
+def handle_chat_request(data):
+    try:
+        user_input = data.get("message", "").strip()
+        current_app.logger.info(f"User input received: {user_input}")
+
+        matched_keywords = [k for k in keyword_instructions if k in user_input.lower()]
+        extra_instruction = ""
+        if matched_keywords:
+            extra_instruction = " ".join(keyword_instructions[k] for k in matched_keywords)
+            extra_instruction = f"\n\nAdditional instruction: {extra_instruction}"
+            current_app.logger.info(f"Matched keywords: {matched_keywords}")
+
+        history_text = "\n".join([f"User: {pair['user']}\nBot: {pair['bot']}" for pair in conversation_history])
+        final_context = site_data + extra_instruction + "\n\nPrevious Conversation:\n" + history_text
+
+        response_text = chat_with_groq(user_input, final_context)
+        conversation_history.append({"user": user_input, "bot": response_text})
+
+        current_app.logger.info(f"Bot response: {response_text}")
+        return jsonify({"response": response_text})
+
+    except Exception:
+        current_app.logger.exception("Error in handle_chat_request.")
+        return jsonify({"response": "Something went wrong"})

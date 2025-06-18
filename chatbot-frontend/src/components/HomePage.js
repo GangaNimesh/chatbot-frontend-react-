@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaComments } from 'react-icons/fa';
-import './HomePage.css';
+import '../assets/HomePage.css';
 
 const HomePage = () => {
   const navigate = useNavigate();
