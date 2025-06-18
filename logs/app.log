@@ -1,75 +1,21 @@
-[2025-06-16 17:17:36,647] INFO in __init__: Logging is set up.
-[2025-06-16 17:19:30,105] INFO in __init__: Logging is set up.
-[2025-06-16 17:20:54,190] INFO in __init__: Logging is set up.
-[2025-06-16 17:23:11,846] INFO in __init__: Logging is set up.
-[2025-06-16 17:25:24,767] INFO in __init__: Logging is set up.
-[2025-06-16 17:25:43,896] INFO in __init__: App created and blueprint registered.
-[2025-06-16 17:25:44,954] INFO in __init__: Logging is set up.
-[2025-06-16 17:26:02,948] INFO in __init__: App created and blueprint registered.
-[2025-06-16 17:50:08,362] INFO in __init__: Logging is set up.
-[2025-06-16 17:50:26,329] INFO in __init__: App created and blueprint registered.
-[2025-06-16 17:50:26,669] INFO in __init__: Logging is set up.
-[2025-06-16 17:50:43,423] INFO in __init__: App created and blueprint registered.
-[2025-06-16 17:53:21,404] INFO in routes: Received message: hi
-[2025-06-16 17:53:22,204] INFO in user_service: Groq API responded successfully.
-[2025-06-16 17:53:22,205] INFO in routes: Bot response: Hello. How can I assist you today?
-[2025-06-16 17:54:59,889] INFO in routes: Received message: hi
-[2025-06-16 17:55:00,588] INFO in user_service: Groq API responded successfully.
-[2025-06-16 17:55:00,590] INFO in routes: Bot response: Hello. How can I assist you today?
-[2025-06-16 17:55:41,840] INFO in __init__: Logging is set up.
-[2025-06-16 17:55:59,093] INFO in __init__: App created and blueprint registered.
-[2025-06-16 17:55:59,419] INFO in __init__: Logging is set up.
-[2025-06-16 17:56:18,599] INFO in __init__: App created and blueprint registered.
-[2025-06-16 18:09:10,124] INFO in __init__: Logging is set up.
-[2025-06-17 10:49:06,036] INFO in __init__: Logging is set up.
-[2025-06-17 10:49:32,858] INFO in __init__: App created and blueprint registered.
-[2025-06-17 10:49:33,667] INFO in __init__: Logging is set up.
-[2025-06-17 10:49:50,606] INFO in __init__: App created and blueprint registered.
-[2025-06-17 11:19:07,309] INFO in routes: Received message: hi
-[2025-06-17 11:19:09,111] INFO in user_service: Groq API responded successfully.
-[2025-06-17 11:19:09,119] INFO in routes: Bot response: Hello, how can I assist you today?
-[2025-06-17 11:19:17,256] INFO in routes: Received message: who is the python team lead?
-[2025-06-17 11:19:17,978] INFO in user_service: Groq API responded successfully.
-[2025-06-17 11:19:17,978] INFO in routes: Bot response: The information provided does not specifically mention a "Python Team Lead." However, it does list "Python Lead" as one of the available roles in the "openings" section under "careers."
-[2025-06-17 11:19:46,913] INFO in routes: Received message: then i can look by myself no..why would i ask u
-[2025-06-17 11:19:47,977] INFO in user_service: Groq API responded successfully.
-[2025-06-17 11:19:47,979] INFO in routes: Bot response: You're right, you could look for the information yourself. I'm here to help and provide direct answers, so you don't have to search through the text. If you ask me a question, I'll do my best to give you a straightforward answer. In this case, I didn't find a specific "Python Team Lead" mentioned, but I can suggest checking the "careers" section or the "management" section to see if any team leads or leaders are listed.
-[2025-06-17 11:20:12,252] INFO in routes: Received message: who is the ceo?
-[2025-06-17 11:20:12,975] INFO in user_service: Groq API responded successfully.
-[2025-06-17 11:20:12,977] INFO in routes: Bot response: The CEO of Innovature is Gijo Sivan, according to the provided information.
-[2025-06-17 13:06:31,744] INFO in __init__: Logging is set up.
-[2025-06-17 13:06:50,253] INFO in __init__: App created and blueprint registered.
-[2025-06-17 13:06:50,917] INFO in __init__: Logging is set up.
-[2025-06-17 13:07:07,301] INFO in __init__: App created and blueprint registered.
-[2025-06-17 13:08:41,494] INFO in routes: Received message: hi
-[2025-06-17 13:08:42,191] INFO in user_service: Groq API responded successfully.
-[2025-06-17 13:08:42,194] INFO in routes: Bot response: Hello, how can I assist you today?
-[2025-06-17 14:16:55,388] INFO in __init__: Logging is set up.
-[2025-06-17 14:17:11,855] INFO in __init__: App created and blueprint registered.
-[2025-06-17 14:17:12,181] INFO in __init__: Logging is set up.
-[2025-06-17 14:17:27,992] INFO in __init__: App created and blueprint registered.
-[2025-06-17 14:18:09,704] INFO in routes: Received message: hi
-[2025-06-17 14:18:10,399] INFO in user_service: Groq API responded successfully.
-[2025-06-17 14:18:10,401] INFO in routes: Bot response: Hello, how can I assist you today?
-[2025-06-17 14:19:05,082] INFO in routes: Received message: ceo?
-[2025-06-17 14:19:16,483] ERROR in user_service: Groq API error 500: {"error":{"message":"Internal Server Error","type":"internal_server_error"}}
-
-[2025-06-17 14:19:16,486] INFO in routes: Bot response: Error: {"error":{"message":"Internal Server Error","type":"internal_server_error"}}
-
-[2025-06-17 14:19:59,758] INFO in routes: Received message: who is the ceo?
-[2025-06-17 14:20:00,563] INFO in user_service: Groq API responded successfully.
-[2025-06-17 14:20:00,565] INFO in routes: Bot response: The CEO of Innovature is Gijo Sivan.
-[2025-06-17 14:20:04,243] INFO in routes: Received message: ceo?
-[2025-06-17 14:20:12,353] INFO in user_service: Groq API responded successfully.
-[2025-06-17 14:20:12,355] INFO in routes: Bot response: The CEO of Innovature is Gijo Sivan.
-[2025-06-17 14:20:19,142] INFO in routes: Received message: what does he do?
-[2025-06-17 14:20:19,912] INFO in user_service: Groq API responded successfully.
-[2025-06-17 14:20:19,913] INFO in routes: Bot response: Gijo Sivan is the CEO, Global at Innovature, but his specific responsibilities and actions are not detailed in the provided information. As the CEO, he likely oversees the overall strategy and direction of the company, but the exact nature of his work is not specified.
-[2025-06-17 14:27:59,010] INFO in __init__: Logging is set up.
-[2025-06-17 14:28:19,062] INFO in __init__: App created and blueprint registered.
-[2025-06-17 14:28:19,397] INFO in __init__: Logging is set up.
-[2025-06-17 14:28:36,004] INFO in __init__: App created and blueprint registered.
-[2025-06-17 14:31:16,584] INFO in __init__: Logging is set up.
-[2025-06-17 14:31:45,297] INFO in __init__: App created and blueprint registered.
-[2025-06-17 14:31:45,769] INFO in __init__: Logging is set up.
-[2025-06-17 14:32:04,412] INFO in __init__: App created and blueprint registered.
+[2025-06-18 11:13:07,398] INFO in __init__: Logging is set up.
+[2025-06-18 11:13:23,476] INFO in __init__: App created and blueprint registered.
+[2025-06-18 11:13:23,797] INFO in __init__: Logging is set up.
+[2025-06-18 11:13:40,015] INFO in __init__: App created and blueprint registered.
+[2025-06-18 11:13:59,787] INFO in routes: Received message: hello
+[2025-06-18 11:14:00,455] INFO in user_service: Groq API responded successfully.
+[2025-06-18 11:14:00,457] INFO in routes: Bot response: Hello, how can I assist you today?
+[2025-06-18 11:29:07,899] INFO in __init__: Logging is set up.
+[2025-06-18 11:29:24,981] INFO in __init__: App created and blueprint registered.
+[2025-06-18 11:29:25,334] INFO in __init__: Logging is set up.
+[2025-06-18 11:29:40,845] INFO in __init__: App created and blueprint registered.
+[2025-06-18 11:35:50,669] INFO in routes: Received message: hi
+[2025-06-18 11:35:55,399] INFO in user_service: Groq API responded successfully.
+[2025-06-18 11:35:55,402] INFO in routes: Bot response: Hello, how can I assist you today?
+[2025-06-18 11:44:12,950] INFO in __init__: Logging is set up.
+[2025-06-18 11:44:29,395] INFO in __init__: App created and blueprint registered.
+[2025-06-18 11:44:29,748] INFO in __init__: Logging is set up.
+[2025-06-18 11:46:21,446] INFO in __init__: Logging is set up.
+[2025-06-18 11:46:38,963] INFO in __init__: App created and blueprint registered.
+[2025-06-18 11:46:39,303] INFO in __init__: Logging is set up.
+[2025-06-18 11:46:55,916] INFO in __init__: App created and blueprint registered.
