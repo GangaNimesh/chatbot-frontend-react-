@@ -5,14 +5,14 @@
 }
 
 .top-section {
-  background-color: white;
-  padding: 10px 20px;
+  background-color: rgb(220, 222, 228);
+  padding: 2px 20px;
   display: flex;
   align-items: center;
 }
 
 .logo {
-  height: 50px;
+  height: 68px;
 }
 
 .main-section {
@@ -24,6 +24,8 @@
   color: white;
   text-align: center;
   position: relative;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 .main-section::before {
@@ -63,10 +65,15 @@ header h2 {
 }
 
 .description {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #f4f4f4;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding: 20px;
+  color: #333;
 }
+
 
 .chatbot-btn {
   position: fixed;
@@ -111,7 +118,7 @@ header h2 {
   opacity: 1;
   background: #007bff;
 }
-/* Allow body to scroll normally */
+/*scroll*/
 body, html {
   margin: 0;
   padding: 0;
@@ -119,16 +126,14 @@ body, html {
   overflow-y: auto;
 }
 
-/* Container takes full height but allows scroll */
 .home-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Make sections tall enough to create overflow */
-.top-section,
 .main-section,
 .contact-section {
   padding: 80px 20px;
 }
+

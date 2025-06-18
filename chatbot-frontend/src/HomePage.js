@@ -28,7 +28,10 @@ const HomePage = () => {
             <p className="subheading">Innovature – Empowering Digital Change</p>
           </header>
 
-          <div className="description">
+          
+        </div>
+      </div>
+<div className="description">
             <p>
               Innovature, a global software company since 2005, empowers businesses across industries with
               digital solutions—spanning Cloud, Data, AI, and Consulting—to scale faster, operate safer, and
@@ -38,9 +41,8 @@ const HomePage = () => {
               Rooted in deep domain expertise and a unique “insource quality, outsource execution” model, we
               help enterprises unlock long-term value through purposeful digital transformation.
             </p>
+        
           </div>
-        </div>
-      </div>
 
       <button onClick={goToChatbot} className="chatbot-btn">
         <FaComments size={24} />

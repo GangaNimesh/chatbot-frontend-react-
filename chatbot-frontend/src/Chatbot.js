@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import './App.css';
 
 const Chatbot = () => {
   const chatBoxRef = useRef(null);
@@ -69,15 +70,7 @@ const Chatbot = () => {
     if (e.key === "Enter") sendMessage();
   };
 
-  const styles = {
-    container: {
-      position: "relative",
-      width: "100%",
-      height: "100vh",
-      backgroundColor: "#dae4e9",
-      fontFamily: "Arial, sans-serif",
-      overflow: "hidden"
-    },
+  const dynamicStyles = {
     bgImage: {
       position: "fixed",
       top: windowWidth >= 1200 ? "0" : "50%",
@@ -89,7 +82,7 @@ const Chatbot = () => {
       backgroundSize: "contain",
       backgroundRepeat: "no-repeat",
       backgroundPosition: windowWidth >= 1200 ? "left center" : "center",
-      zIndex: 0
+      zIndex: -2
     },
     darkOverlay: {
       position: "fixed",
@@ -98,7 +91,7 @@ const Chatbot = () => {
       width: "100%",
       height: "100%",
       backgroundColor: windowWidth < 1200 && firstMessageSent ? "rgba(0,0,0,0.7)" : "transparent",
-      zIndex: 1,
+      zIndex: -1,
       transition: "background-color 0.7s ease"
     },
     chatWrapper: {
@@ -111,124 +104,39 @@ const Chatbot = () => {
       padding: "20px",
       zIndex: 2
     },
-    chatBox: {
-      width: "100%",
-      height: "70vh",
-      overflowY: "auto",
-      marginBottom: "15px",
-      padding: "10px",
-      display: "flex",
-      flexDirection: "column",
-      gap: "10px"
-    },
-    inputSection: {
-      display: "flex",
-      alignItems: "center",
-      width: "100%",
-      gap: "10px"
-    },
-    input: {
-      flexGrow: 1,
-      padding: "10px 15px",
-      borderRadius: "20px",
-      border: "none",
-      outline: "none",
-      fontSize: "14px",
-      backgroundColor: "#c9dff3",
-      color: "#020202"
-    },
     sendBtn: {
-      padding: "10px 24px",
-      fontSize: "14px",
-      background: "#007bff",
-      color: "white",
-      border: "none",
-      borderRadius: "20px",
-      cursor: "pointer",
       display: windowWidth > 767 ? "inline-block" : "none"
     },
     circleSend: {
-      display: windowWidth <= 767 ? "flex" : "none",
-      width: 36,
-      height: 36,
-      borderRadius: "50%",
-      border: "none",
-      background: "#007bff",
-      color: "white",
-      fontSize: 18,
-      cursor: "pointer",
-      alignItems: "center",
-      justifyContent: "center",
-      marginLeft: 5
-    },
-    resetWrapper: {
-      width: "100%",
-      display: "flex",
-      justifyContent: "center",
-      marginTop: "10px"
-    },
-    resetBtn: {
-      padding: "10px 24px",
-      fontSize: "14px",
-      background: "#f53243",
-      color: "white",
-      border: "none",
-      borderRadius: "20px",
-      cursor: "pointer"
+      display: windowWidth <= 767 ? "flex" : "none"
     }
   };
 
   return (
-    <div style={styles.container}>
-      <div style={styles.bgImage}></div>
-      <div style={styles.darkOverlay}></div>
+    <div className="container">
+      <div style={dynamicStyles.bgImage}></div>
+      <div style={dynamicStyles.darkOverlay}></div>
 
-      <div style={styles.chatWrapper}>
-        <div ref={chatBoxRef} style={styles.chatBox}></div>
+      <div className="chat-wrapper" style={dynamicStyles.chatWrapper}>
+        <div ref={chatBoxRef} className="chat-box"></div>
 
-        <div style={styles.inputSection}>
+        <div className="input-section">
           <input
             type="text"
             ref={inputRef}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             onKeyDown={handleKeyDown}
-            style={styles.input}
             placeholder="Ask anything about Innovature..."
           />
-          <button style={styles.sendBtn} onClick={sendMessage}>Send</button>
-          <button style={styles.circleSend} onClick={sendMessage}>↑</button>
+          <button className="send-btn" style={dynamicStyles.sendBtn} onClick={sendMessage}>Send</button>
+          <button className="circle-send" style={dynamicStyles.circleSend} onClick={sendMessage}>↑</button>
         </div>
 
-        <div style={styles.resetWrapper}>
-          <button style={styles.resetBtn} onClick={resetChat}>Reset</button>
+        <div className="reset-wrapper">
+          <button className="reset-btn" onClick={resetChat}>Reset</button>
         </div>
       </div>
-
-      <style>{`
-        .bubble {
-          max-width: 75%;
-          padding: 10px 15px;
-          border-radius: 18px;
-          font-size: 15px;
-          line-height: 1.4;
-          word-wrap: break-word;
-        }
-        .user-bubble {
-          background-color: #84c0f5;
-          color: #1a1515;
-          align-self: flex-end;
-          border-bottom-right-radius: 0;
-          margin-left: auto;
-        }
-        .bot-bubble {
-          background-color: #f1f1f1;
-          color: #232729;
-          align-self: flex-start;
-          border-bottom-left-radius: 0;
-          margin-right: auto;
-        }
-      `}</style>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+/* App.css */
+
 .container {
   position: relative;
   width: 100%;
@@ -171,4 +173,29 @@ input[type="text"] {
   .overlay {
     background: none !important;
   }
+}
+
+.bubble {
+  max-width: 75%;
+  padding: 10px 15px;
+  border-radius: 18px;
+  font-size: 15px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.user-bubble {
+  background-color: #84c0f5;
+  color: #1a1515;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+  margin-left: auto;
+}
+
+.bot-bubble {
+  background-color: #f1f1f1;
+  color: #232729;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+  margin-right: auto;
 }
