@@ -3,7 +3,6 @@
   width: 100%;
   height: 100vh;
 }
-
 .bg-image {
   position: fixed;
   top: 45%;
@@ -19,7 +18,6 @@
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -30,11 +28,9 @@
   transition: background 0.5s ease;
   z-index: -1;
 }
-
 .overlay.faded {
   background: rgba(21, 23, 26, 0.8);
 }
-
 .chat-wrapper {
   position: absolute;
   top: 50%;
@@ -44,7 +40,6 @@
   max-width: 600px;
   padding: 20px;
 }
-
 .chat-box {
   width: 100%;
   height: 70vh;
@@ -55,7 +50,6 @@
   flex-direction: column;
   gap: 10px;
 }
-
 .message {
   padding: 10px 15px;
   border-radius: 20px;
@@ -64,28 +58,24 @@
   font-size: 16px;
   line-height: 1.4;
 }
-
 .user {
   align-self: flex-end;
   background: rgba(132, 192, 245, 0.95);
   color: rgb(231, 226, 226);
   border-bottom-right-radius: 0;
 }
-
 .bot {
   align-self: flex-start;
   background: rgba(216, 212, 212, 0.95);
   color: rgb(35, 39, 41);
   border-bottom-left-radius: 0;
 }
-
 .input-section {
   display: flex;
   align-items: center;
   width: 100%;
   gap: 10px;
 }
-
 input[type="text"] {
   flex-grow: 1;
   padding: 10px 15px;
@@ -96,7 +86,6 @@ input[type="text"] {
   background-color: #c9dff3;
   color: #020202;
 }
-
 .send-btn {
   padding: 10px 24px;
   font-size: 14px;
@@ -106,7 +95,6 @@ input[type="text"] {
   border-radius: 20px;
   cursor: pointer;
 }
-
 .circle-send {
   display: none;
   width: 36px;
@@ -120,18 +108,15 @@ input[type="text"] {
   justify-content: center;
   margin-left: 5px;
 }
-
 .circle-send:hover {
   background: #0056b3;
 }
-
 .reset-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-
 .reset-btn {
   padding: 10px 24px;
   font-size: 14px;
@@ -141,11 +126,9 @@ input[type="text"] {
   border-radius: 20px;
   cursor: pointer;
 }
-
 .reset-btn:hover {
   background: #a71d2a;
 }
-
 @media (max-width: 767px) {
   .send-btn {
     display: none;
@@ -154,7 +137,6 @@ input[type="text"] {
     display: flex;
   }
 }
-
 @media (min-width: 1200px) {
   .bg-image {
     width: 180vw;
@@ -162,17 +144,11 @@ input[type="text"] {
     left: 25%;
     transform: translate(-50%, -50%);
   }
-
   .chat-wrapper {
     left: 75%;
     transform: translate(-50%, -50%);
   }
-
-  .overlay {
-    background: none !important;
-  }
 }
-
 .bubble {
   max-width: 75%;
   padding: 10px 15px;
@@ -181,7 +157,6 @@ input[type="text"] {
   line-height: 1.4;
   word-wrap: break-word;
 }
-
 .user-bubble {
   background-color: #84c0f5;
   color: #1a1515;
@@ -189,7 +164,6 @@ input[type="text"] {
   border-bottom-right-radius: 0;
   margin-left: auto;
 }
-
 .bot-bubble {
   background-color: #f1f1f1;
   color: #232729;
@@ -203,7 +177,6 @@ input[type="text"] {
   width: 100%;
   overflow: hidden;
 }
-
 .chat-section {
   position: absolute;
   top: 50%;

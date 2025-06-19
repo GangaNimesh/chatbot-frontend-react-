@@ -8,6 +8,15 @@ const Chatbot = () => {
   const [chat, setChat] = useState(() => localStorage.getItem("chatHistory") || "");
   const [message, setMessage] = useState("");
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [sessionId, setSessionId] = useState(() => {
+  let storedId = localStorage.getItem("sessionId");
+  if (!storedId) {
+    storedId = crypto.randomUUID(); //unique id 
+    localStorage.setItem("sessionId", storedId);
+  }
+  return storedId;
+});
+
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
@@ -34,7 +43,7 @@ const Chatbot = () => {
     fetch("http://localhost:5000/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message })
+      body: JSON.stringify({ message, sessionId })
     })
       .then(res => res.json())
       .then(data => {
@@ -62,9 +71,14 @@ const Chatbot = () => {
 
   const resetChat = () => {
     localStorage.removeItem("chatHistory");
+    localStorage.removeItem("sessionId");
     setChat("");
     setFirstMessageSent(false);
+    const newId = crypto.randomUUID();
+    localStorage.setItem("sessionId", newId);
+    setSessionId(newId);
   };
+
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") sendMessage();

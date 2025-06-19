@@ -3,18 +3,15 @@
   min-height: 200vh; 
   position: relative;
 }
-
 .top-section {
   background-color: rgb(220, 222, 228);
   padding: 2px 20px;
   display: flex;
   align-items: center;
 }
-
 .logo {
   height: 68px;
 }
-
 .main-section {
   background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');
   background-size: cover;
@@ -27,7 +24,6 @@
   padding-top: 50px;
   padding-bottom: 80px;
 }
-
 .main-section::before {
   content: "";
   position: absolute;
@@ -38,32 +34,27 @@
   background-color: rgba(0, 0, 0, 0.55);
   z-index: 0;
 }
-
 .overlay-content {
   position: relative;
   z-index: 1;
   max-width: 900px;
   margin: 0 auto;
 }
-
 header h1 {
   font-size: 2.65rem;
   margin: 0;
   color: #ffffff;
 }
-
 header h2 {
   font-size: 2rem;
   margin-top: 10px;
   color: #b6defa;
 }
-
 .subheading {
   font-size: 1.2rem;
   color: #f0c3c3;
   margin: 10px 0 30px;
 }
-
 .description {
   max-width: 900px;
   margin: 0 auto;
@@ -73,8 +64,6 @@ header h2 {
   padding: 20px;
   color: #333;
 }
-
-
 .chatbot-btn {
   position: fixed;
   bottom: 20px;
@@ -92,7 +81,6 @@ header h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
-
 .scroll-top-btn {
   position: fixed;
   bottom: 80px;
@@ -113,7 +101,6 @@ header h2 {
   opacity: 0.8;
   transition: opacity 0.3s;
 }
-
 .scroll-top-btn:hover {
   opacity: 1;
   background: #007bff;
@@ -125,13 +112,11 @@ body, html {
   height: 100%;
   overflow-y: auto;
 }
-
 .home-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
 .main-section,
 .contact-section {
   padding: 80px 20px;

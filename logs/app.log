@@ -1,56 +1,45 @@
-[2025-06-18 11:13:07,398] INFO in __init__: Logging is set up.
-[2025-06-18 11:13:23,476] INFO in __init__: App created and blueprint registered.
-[2025-06-18 11:13:23,797] INFO in __init__: Logging is set up.
-[2025-06-18 11:13:40,015] INFO in __init__: App created and blueprint registered.
-[2025-06-18 11:13:59,787] INFO in routes: Received message: hello
-[2025-06-18 11:14:00,455] INFO in user_service: Groq API responded successfully.
-[2025-06-18 11:14:00,457] INFO in routes: Bot response: Hello, how can I assist you today?
-[2025-06-18 11:29:07,899] INFO in __init__: Logging is set up.
-[2025-06-18 11:29:24,981] INFO in __init__: App created and blueprint registered.
-[2025-06-18 11:29:25,334] INFO in __init__: Logging is set up.
-[2025-06-18 11:29:40,845] INFO in __init__: App created and blueprint registered.
-[2025-06-18 11:35:50,669] INFO in routes: Received message: hi
-[2025-06-18 11:35:55,399] INFO in user_service: Groq API responded successfully.
-[2025-06-18 11:35:55,402] INFO in routes: Bot response: Hello, how can I assist you today?
-[2025-06-18 11:44:12,950] INFO in __init__: Logging is set up.
-[2025-06-18 11:44:29,395] INFO in __init__: App created and blueprint registered.
-[2025-06-18 11:44:29,748] INFO in __init__: Logging is set up.
-[2025-06-18 11:46:21,446] INFO in __init__: Logging is set up.
-[2025-06-18 11:46:38,963] INFO in __init__: App created and blueprint registered.
-[2025-06-18 11:46:39,303] INFO in __init__: Logging is set up.
-[2025-06-18 11:46:55,916] INFO in __init__: App created and blueprint registered.
-[2025-06-18 12:10:21,158] INFO in __init__: Logging is set up.
-[2025-06-18 12:11:48,889] INFO in __init__: Logging is set up.
-[2025-06-18 12:12:04,183] INFO in __init__: App created and blueprint registered.
-[2025-06-18 12:12:04,513] INFO in __init__: Logging is set up.
-[2025-06-18 12:12:21,191] INFO in __init__: App created and blueprint registered.
-[2025-06-18 12:28:11,056] INFO in routes: Received message: hi
-[2025-06-18 12:28:11,861] INFO in user_service: Groq API responded successfully.
-[2025-06-18 12:28:11,863] INFO in routes: Bot response: Hello, how can I assist you today?
-[2025-06-18 13:38:45,709] INFO in __init__: Logging is set up.
-[2025-06-18 13:39:06,680] INFO in __init__: App created and blueprint registered.
-[2025-06-18 13:39:07,379] INFO in __init__: Logging is set up.
-[2025-06-18 13:39:31,755] INFO in __init__: App created and blueprint registered.
-[2025-06-18 13:39:59,084] INFO in routes: Received message: hi
-[2025-06-18 13:39:59,902] INFO in user_service: Groq API responded successfully.
-[2025-06-18 13:39:59,902] INFO in routes: Bot response: Hello, how can I assist you today?
-[2025-06-18 13:40:16,743] INFO in routes: Received message: toogle
-[2025-06-18 13:40:17,446] INFO in user_service: Groq API responded successfully.
-[2025-06-18 13:40:17,448] INFO in routes: Bot response: It seems like you've entered "toogle" which doesn't appear to be related to the provided information. Could you please provide more context or clarify your question so I can better assist you?
-[2025-06-18 13:40:33,359] INFO in routes: Received message: innovature
-[2025-06-18 13:40:34,134] INFO in user_service: Groq API responded successfully.
-[2025-06-18 13:40:34,136] INFO in routes: Bot response: Innovature is a global software company that empowers businesses across industries with digital solutions, including Cloud, Data, AI, and Consulting, to scale faster, operate safer, and grow smarter. They have deep domain expertise and a unique "insource quality, outsource execution" model, helping enterprises unlock long-term value through purposeful digital transformation.
-[2025-06-18 13:40:45,919] INFO in routes: Received message: vision
-[2025-06-18 13:40:45,920] INFO in routes: Matched keywords: ['vision']
-[2025-06-18 13:40:46,606] INFO in user_service: Groq API responded successfully.
-[2025-06-18 13:40:46,608] INFO in routes: Bot response: Innovature's vision is "Innovate for a better future." Their mission is "Deliver top digital solutions that delight."
-[2025-06-18 13:40:57,143] INFO in routes: Received message: mission
-[2025-06-18 13:40:57,845] INFO in user_service: Groq API responded successfully.
-[2025-06-18 13:40:57,848] INFO in routes: Bot response: Innovature's mission is "Deliver top digital solutions that delight."
-[2025-06-18 14:48:32,844] INFO in __init__: Logging is set up.
-[2025-06-18 14:48:51,883] INFO in __init__: App created and blueprint registered.
-[2025-06-18 14:48:52,197] INFO in __init__: Logging is set up.
-[2025-06-18 14:49:09,413] INFO in __init__: App created and blueprint registered.
-[2025-06-18 14:49:09,446] INFO in user_service: User input received: hi
-[2025-06-18 14:49:10,125] INFO in user_service: Groq API responded successfully.
-[2025-06-18 14:49:10,127] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-19 17:41:32,961] INFO in __init__: Logging is set up.
+[2025-06-19 17:41:52,497] INFO in __init__: App created and blueprint registered.
+[2025-06-19 17:41:52,923] INFO in __init__: Logging is set up.
+[2025-06-19 17:42:16,482] INFO in __init__: App created and blueprint registered.
+[2025-06-19 17:42:16,536] INFO in user_service: User input received: hi
+[2025-06-19 17:42:16,537] INFO in user_service: Session ID: 70208445-b651-4511-9781-e0780f786978
+[2025-06-19 17:42:16,538] INFO in user_service: User input received: hi
+[2025-06-19 17:42:17,199] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:42:17,199] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-19 17:42:19,469] INFO in user_service: User input received: ceo?
+[2025-06-19 17:42:19,471] INFO in user_service: Session ID: 70208445-b651-4511-9781-e0780f786978
+[2025-06-19 17:42:19,473] INFO in user_service: User input received: ceo?
+[2025-06-19 17:42:20,082] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:42:20,085] INFO in user_service: Bot response: The CEO of Innovature is Gijo Sivan.
+[2025-06-19 17:42:23,864] INFO in user_service: User input received: vp?
+[2025-06-19 17:42:23,866] INFO in user_service: Session ID: 70208445-b651-4511-9781-e0780f786978
+[2025-06-19 17:42:23,867] INFO in user_service: User input received: vp?
+[2025-06-19 17:42:24,586] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:42:24,586] INFO in user_service: Bot response: There are multiple VPs listed: Yoshitaka Nakayama (VP, Strategic Dev) and Unnikrishnan S (VP).
+[2025-06-19 17:42:32,343] INFO in user_service: User input received: wh y 2/
+[2025-06-19 17:42:32,344] INFO in user_service: Session ID: 70208445-b651-4511-9781-e0780f786978
+[2025-06-19 17:42:32,346] INFO in user_service: User input received: wh y 2/
+[2025-06-19 17:42:33,062] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:42:33,064] INFO in user_service: Bot response: The provided information does not specify why there are two VPs. It only lists the names and roles of the VPs: Yoshitaka Nakayama (VP, Strategic Dev) and Unnikrishnan S (VP).
+[2025-06-19 17:42:58,002] INFO in user_service: User input received: meghna?
+[2025-06-19 17:42:58,004] INFO in user_service: Session ID: 70208445-b651-4511-9781-e0780f786978
+[2025-06-19 17:42:58,005] INFO in user_service: User input received: meghna?
+[2025-06-19 17:42:58,657] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:42:58,659] INFO in user_service: Bot response: Meghna George is the People Ops Head at Innovature.
+[2025-06-19 17:43:37,703] INFO in user_service: User input received: hello
+[2025-06-19 17:43:37,704] INFO in user_service: Session ID: 0dcabd8c-34f1-4f86-9619-767fe42154a3
+[2025-06-19 17:43:37,706] INFO in user_service: User input received: hello
+[2025-06-19 17:43:38,305] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:43:38,307] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-19 17:43:49,899] INFO in user_service: User input received: who is abhijith ?
+[2025-06-19 17:43:49,901] INFO in user_service: Session ID: 0dcabd8c-34f1-4f86-9619-767fe42154a3
+[2025-06-19 17:43:49,902] INFO in user_service: User input received: who is abhijith ?
+[2025-06-19 17:43:50,523] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:43:50,525] INFO in user_service: Bot response: There is no information provided about Abhijith.
+[2025-06-19 17:44:05,453] INFO in user_service: User input received: whats the basic salary?
+[2025-06-19 17:44:05,454] INFO in user_service: Matched keywords: ['ar']
+[2025-06-19 17:44:05,454] INFO in user_service: Session ID: 0dcabd8c-34f1-4f86-9619-767fe42154a3
+[2025-06-19 17:44:05,455] INFO in user_service: User input received: whats the basic salary?
+[2025-06-19 17:44:06,108] INFO in user_service: Groq API responded successfully.
+[2025-06-19 17:44:06,110] INFO in user_service: Bot response: The provided information does not include details about basic salary.

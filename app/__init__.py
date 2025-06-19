@@ -10,10 +10,8 @@ def create_app():
     app = Flask(__name__)
     CORS(app)
 
-    #Creates logs if it doesnt exist
-    os.makedirs("logs", exist_ok=True)
+    os.makedirs("logs", exist_ok=True)#Creates logs if it doesnt exist
 
-    #logging
     log_formatter = logging.Formatter("[%(asctime)s] %(levelname)s in %(module)s: %(message)s")
     file_handler = RotatingFileHandler("logs/app.log", maxBytes=10240, backupCount=3)
     file_handler.setFormatter(log_formatter)

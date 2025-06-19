@@ -8,8 +8,7 @@ const HomePage = () => {
 
   const goToChatbot = () => {
     navigate('/chatbot');
-  };
-
+  }; 
   return (
     <div className="home-container">
       <div className="top-section">
@@ -19,7 +18,6 @@ const HomePage = () => {
           className="logo"
         />
       </div>
-
       <div className="main-section">
         <div className="overlay-content">
           <header>
@@ -27,8 +25,6 @@ const HomePage = () => {
             <h2>The Power of Digital Transformation</h2>
             <p className="subheading">Innovature – Empowering Digital Change</p>
           </header>
-
-          
         </div>
       </div>
 <div className="description">

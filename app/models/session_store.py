@@ -1,1 +1,1 @@
-conversation_history = []
+conversation_history = {}
