@@ -1,14 +1,11 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
 import { FaComments } from 'react-icons/fa';
 import '../assets/HomePage.css';
+import Chatbot from './Chatbot';
 
 const HomePage = () => {
-  const navigate = useNavigate();
+  const [showChatbot, setShowChatbot] = useState(false);
 
-  const goToChatbot = () => {
-    navigate('/chatbot');
-  }; 
   return (
     <div className="home-container">
       <div className="top-section">
@@ -18,6 +15,7 @@ const HomePage = () => {
           className="logo"
         />
       </div>
+
       <div className="main-section">
         <div className="overlay-content">
           <header>
@@ -27,22 +25,30 @@ const HomePage = () => {
           </header>
         </div>
       </div>
-<div className="description">
-            <p>
-              Innovature, a global software company since 2005, empowers businesses across industries with
-              digital solutions—spanning Cloud, Data, AI, and Consulting—to scale faster, operate safer, and
-              grow smarter across borders.
-            </p>
-            <p>
-              Rooted in deep domain expertise and a unique “insource quality, outsource execution” model, we
-              help enterprises unlock long-term value through purposeful digital transformation.
-            </p>
-        
-          </div>
 
-      <button onClick={goToChatbot} className="chatbot-btn">
-        <FaComments size={24} />
+      <div className="description">
+        <p>
+          Innovature, a global software company since 2005, empowers businesses across industries with
+          digital solutions—spanning Cloud, Data, AI, and Consulting—to scale faster, operate safer, and
+          grow smarter across borders.
+        </p>
+        <p>
+          Rooted in deep domain expertise and a unique “insource quality, outsource execution” model, we
+          help enterprises unlock long-term value through purposeful digital transformation.
+        </p>
+      </div>
+
+      {/* Toggle Button */}
+      <button onClick={() => setShowChatbot(!showChatbot)} className="chatbot-toggle-btn">
+        {showChatbot ? '×' : <FaComments size={24} />}
       </button>
+
+      {/* Popup on Right */}
+      {showChatbot && (
+        <div className="chatbot-popup-right">
+          <Chatbot />
+        </div>
+      )}
     </div>
   );
 };
