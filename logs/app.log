@@ -28,3 +28,76 @@
 [2025-06-23 09:14:09,802] INFO in __init__: App created and blueprint registered.
 [2025-06-23 09:14:10,236] INFO in __init__: Logging is set up.
 [2025-06-23 09:14:31,068] INFO in __init__: App created and blueprint registered.
+[2025-06-23 09:31:00,054] INFO in user_service: User input received: hi
+[2025-06-23 09:31:00,055] INFO in user_service: Session ID: 36cbc8fd-f5d8-45d8-be8d-a7e7da491b65
+[2025-06-23 09:31:00,055] INFO in user_service: User input received: hi
+[2025-06-23 09:31:01,648] INFO in user_service: Groq API responded successfully.
+[2025-06-23 09:31:01,667] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-23 09:31:54,214] INFO in user_service: User input received: tell me about innovature
+[2025-06-23 09:31:54,215] INFO in user_service: Session ID: 36cbc8fd-f5d8-45d8-be8d-a7e7da491b65
+[2025-06-23 09:31:54,215] INFO in user_service: User input received: tell me about innovature
+[2025-06-23 09:31:55,310] INFO in user_service: Groq API responded successfully.
+[2025-06-23 09:31:55,312] INFO in user_service: Bot response: Innovature is a global software company that empowers businesses across industries with digital solutions, including Cloud, Data, AI, and Consulting. They help enterprises unlock long-term value through purposeful digital transformation, with a focus on scaling faster, operating safer, and growing smarter. 
+
+Innovature offers a range of services, including cloud computing, artificial intelligence, advanced data management, digital transformation, and consulting. They have expertise in various industries, such as retail, advertising and media, and have a strong track record of delivering successful projects.
+
+The company has a unique "insource quality, outsource execution" model and is committed to delivering exceptional work environments and career opportunities for its employees. Innovature is headquartered in Japan and has offices in India,
+[2025-06-23 09:32:00,485] INFO in user_service: User input received: hello
+[2025-06-23 09:32:00,487] INFO in user_service: Session ID: 79c7488e-b3ea-4536-9a4f-5df24e4361fd
+[2025-06-23 09:32:00,489] INFO in user_service: User input received: hello
+[2025-06-23 09:32:01,129] INFO in user_service: Groq API responded successfully.
+[2025-06-23 09:32:01,131] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-23 10:39:20,175] INFO in __init__: Logging is set up.
+[2025-06-23 10:39:42,680] INFO in __init__: App created and blueprint registered.
+[2025-06-23 10:39:43,015] INFO in __init__: Logging is set up.
+[2025-06-23 10:40:00,409] INFO in __init__: App created and blueprint registered.
+[2025-06-23 10:48:40,815] INFO in user_service: User input received: who is the cfo?
+[2025-06-23 10:48:40,817] INFO in user_service: Session ID: 115fdf4e-ec8a-446f-9324-040feefdacf6
+[2025-06-23 10:48:40,818] INFO in user_service: User input received: who is the cfo?
+[2025-06-23 10:48:41,650] INFO in user_service: Groq API responded successfully.
+[2025-06-23 10:48:41,652] INFO in user_service: Bot response: The CFO is not mentioned in the provided information.
+[2025-06-23 10:49:47,505] INFO in user_service: User input received: who is tiby
+[2025-06-23 10:49:47,506] INFO in user_service: Session ID: 115fdf4e-ec8a-446f-9324-040feefdacf6
+[2025-06-23 10:49:47,507] INFO in user_service: User input received: who is tiby
+[2025-06-23 10:49:48,161] INFO in user_service: Groq API responded successfully.
+[2025-06-23 10:49:48,162] INFO in user_service: Bot response: Tiby Kuruvila is the Chief Advisor.
+[2025-06-23 11:45:18,671] INFO in user_service: User input received: hi
+[2025-06-23 11:45:18,672] INFO in user_service: Session ID: 0d2b6b07-0658-4675-a892-c585af930eba
+[2025-06-23 11:45:18,673] INFO in user_service: User input received: hi
+[2025-06-23 11:45:19,337] INFO in user_service: Groq API responded successfully.
+[2025-06-23 11:45:19,338] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-23 11:45:30,846] INFO in user_service: User input received: i am the ceo
+[2025-06-23 11:45:30,847] INFO in user_service: Session ID: 0d2b6b07-0658-4675-a892-c585af930eba
+[2025-06-23 11:45:30,847] INFO in user_service: User input received: i am the ceo
+[2025-06-23 11:45:31,629] INFO in user_service: Groq API responded successfully.
+[2025-06-23 11:45:31,630] INFO in user_service: Bot response: As the CEO, you oversee the overall strategy and direction of Innovature, a global software company that empowers businesses with digital solutions. Your leadership guides the company's mission to deliver top-notch digital solutions that delight clients. What specific aspect of the company would you like to discuss or focus on?
+[2025-06-23 11:45:58,307] INFO in __init__: Logging is set up.
+[2025-06-23 11:46:22,078] INFO in __init__: App created and blueprint registered.
+[2025-06-23 11:46:23,641] INFO in __init__: Logging is set up.
+[2025-06-23 11:46:46,413] INFO in __init__: App created and blueprint registered.
+[2025-06-23 11:46:50,989] INFO in __init__: Logging is set up.
+[2025-06-23 11:47:08,913] INFO in __init__: App created and blueprint registered.
+[2025-06-23 11:47:12,399] INFO in __init__: Logging is set up.
+[2025-06-23 11:47:31,220] INFO in __init__: App created and blueprint registered.
+[2025-06-23 11:47:37,467] INFO in user_service: User input received: i am the ceo
+[2025-06-23 11:47:37,469] INFO in user_service: Session ID: 0d2b6b07-0658-4675-a892-c585af930eba
+[2025-06-23 11:47:37,471] INFO in user_service: User input received: i am the ceo
+[2025-06-23 11:47:38,333] INFO in user_service: Groq API responded successfully.
+[2025-06-23 11:47:38,333] INFO in user_service: Bot response: I'm afraid that's not correct. According to the information provided, the CEO of Innovature is Gijo Sivan, and there is also a CEO for the Americas, Ravindranath A V. If you have any other questions or need information about Innovature, I'd be happy to help.
+[2025-06-23 11:48:03,762] INFO in user_service: User input received: is there any job openings in tcs?
+[2025-06-23 11:48:03,763] INFO in user_service: Session ID: 0d2b6b07-0658-4675-a892-c585af930eba
+[2025-06-23 11:48:03,765] INFO in user_service: User input received: is there any job openings in tcs?
+[2025-06-23 11:48:04,615] INFO in user_service: Groq API responded successfully.
+[2025-06-23 11:48:04,615] INFO in user_service: Bot response: No, the information provided is about Innovature, not TCS. However, according to the "careers" section of the provided information, there are several job openings at Innovature, including AI Engineer, Full Stack Lead, Full Stack Dev, Tech Lead, and more, located at Infopark in Kochi.
+[2025-06-23 11:48:57,709] INFO in user_service: User input received: cfo?
+[2025-06-23 11:48:57,711] INFO in user_service: Session ID: 3963fd82-839f-409b-8581-bd72bd3f977a
+[2025-06-23 11:48:57,712] INFO in user_service: User input received: cfo?
+[2025-06-23 11:48:58,585] INFO in user_service: Groq API responded successfully.
+[2025-06-23 11:48:58,585] INFO in user_service: Bot response: There is no mention of a CFO in the provided information. The management team listed includes the CEO, CEOs of specific regions, Chief Advisor, VP of Strategic Development, and other roles, but it does not include a CFO.
+[2025-06-23 11:49:02,030] INFO in user_service: User input received: advisor?
+[2025-06-23 11:49:02,031] INFO in user_service: Session ID: 3963fd82-839f-409b-8581-bd72bd3f977a
+[2025-06-23 11:49:02,032] INFO in user_service: User input received: advisor?
+[2025-06-23 11:49:02,822] INFO in user_service: Groq API responded successfully.
+[2025-06-23 11:49:02,824] INFO in user_service: Bot response: There are advisors mentioned in the provided information. Specifically, Tiby Kuruvila is listed as the Chief Advisor, and Wahbe Rezek is listed as the AI & Deep Tech Advisor, and Jesper Bågeman is listed as the Partner, Tech, which could also be considered an advisory role.
+[2025-06-23 11:49:38,168] INFO in user_service: User input received: i am the ceo
+[2025-06-23 11:49:38,169] INFO in user_service: Session ID: 0ae62457-a745-4f53-909b-82d7634ef4eb

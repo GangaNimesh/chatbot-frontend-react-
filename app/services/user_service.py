@@ -1,6 +1,6 @@
-import os 
+import os #accessing api key
 import json
-import requests #http requests
+import requests #http requests to groq
 from flask import current_app, jsonify
 from app.utils.helpers import scrape_website_selenium, load_manual_data, load_keyword_instructions
 from app.models.session_store import conversation_history
@@ -18,7 +18,6 @@ def chat_with_groq(user_prompt, context_data):
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json"
     }
-
     payload = {
         "model": "llama-3.3-70b-versatile",
         "messages": [
@@ -28,6 +27,7 @@ def chat_with_groq(user_prompt, context_data):
                     "You are an AI assistant. Prefer manual information provided by the user over scraped content when they conflict. "
                     "Do NOT mention or comment on the amount or nature of the context given. "
                     "Provide direct, concise answers without meta-comments about the data."
+                    "If the users claims that they are one of the executive members of Innovature, then you should correct them by giving the exact exective member's name."
                 )
             },
             {
@@ -37,7 +37,6 @@ def chat_with_groq(user_prompt, context_data):
         ],
         "max_completion_tokens": 150
     }
-
     try:
         response = requests.post(URL, json=payload, headers=headers)
         if response.status_code == 200:
@@ -53,7 +52,7 @@ def chat_with_groq(user_prompt, context_data):
 
 def handle_chat_request(data):
     try:
-        user_input = data.get("message", "").strip()
+        user_input = data.get("message", "").strip() #strip-removes extra spaces
         current_app.logger.info(f"User input received: {user_input}")
         matched_keywords = [k for k in keyword_instructions if k in user_input.lower()]
         extra_instruction = ""
@@ -61,7 +60,6 @@ def handle_chat_request(data):
             extra_instruction = " ".join(keyword_instructions[k] for k in matched_keywords)
             extra_instruction = f"\n\nAdditional instruction: {extra_instruction}"
             current_app.logger.info(f"Matched keywords: {matched_keywords}")
-
         session_id = data.get("sessionId")
         if not session_id:
             return jsonify({"error": "Missing session ID"}),
@@ -71,16 +69,11 @@ def handle_chat_request(data):
         history_text = "\n".join([f"User: {pair['user']}\nBot: {pair['bot']}" for pair in session_history])
         current_app.logger.info(f"Session ID: {session_id}")
         current_app.logger.info(f"User input received: {user_input}")
-
         final_context = site_data + extra_instruction + "\n\nPrevious Conversation:\n" + history_text
-
         response_text = chat_with_groq(user_input, final_context)
         conversation_history[session_id].append({"user": user_input, "bot": response_text})
-
-
         current_app.logger.info(f"Bot response: {response_text}")
         return jsonify({"response": response_text})
-
     except Exception:
         current_app.logger.exception("Error in handle_chat_request.")
         return jsonify({"response": "Something went wrong"})

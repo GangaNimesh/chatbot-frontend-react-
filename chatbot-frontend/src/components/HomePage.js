@@ -3,7 +3,7 @@ import { FaComments } from 'react-icons/fa';
 import '../assets/HomePage.css';
 import Chatbot from './Chatbot';
 
-const HomePage = () => {
+const HomePage = () =>{
   const [showChatbot, setShowChatbot] = useState(false);
 
   return (
@@ -21,7 +21,7 @@ const HomePage = () => {
           <header>
             <h1>Revolutionizing Tomorrow</h1>
             <h2>The Power of Digital Transformation</h2>
-            <p className="subheading">Innovature – Empowering Digital Change</p>
+            <p className="subheading">Innovature - Empowering Digital Change</p>
           </header>
         </div>
       </div>
@@ -38,12 +38,12 @@ const HomePage = () => {
         </p>
       </div>
 
-      {/* Toggle Button */}
+      {/*Toggle Button*/}
       <button onClick={() => setShowChatbot(!showChatbot)} className="chatbot-toggle-btn">
         {showChatbot ? '×' : <FaComments size={24} />}
       </button>
 
-      {/* Popup on Right */}
+      {/*Popup*/}
       {showChatbot && (
         <div className="chatbot-popup-right">
           <Chatbot />
