@@ -14,7 +14,7 @@ scraped_site_data = scrape_website_selenium("https://innovature.ai/")
 site_data = json.dumps(manual_data, indent=2) + "\n" + scraped_site_data
 
 def chat_with_groq(user_prompt, context_data):
-    headers = {
+    headers ={
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json"
     }
@@ -27,7 +27,8 @@ def chat_with_groq(user_prompt, context_data):
                     "You are an AI assistant. Prefer manual information provided by the user over scraped content when they conflict. "
                     "Do NOT mention or comment on the amount or nature of the context given. "
                     "Provide direct, concise answers without meta-comments about the data."
-                    "If the users claims that they are one of the executive members of Innovature, then you should correct them by giving the exact exective member's name."
+                    "If the user asks for information not in the context, say that you don't have the information politely."
+                    "If the user claims that they are one of the executive member of innovature, tell them that you are not the executive member and give the right information politely."
                 )
             },
             {
