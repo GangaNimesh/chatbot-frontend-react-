@@ -1,5 +1,12 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import '../assets/App.css';
+
+function getCookie(name){
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return decodeURIComponent(parts.pop().split(';').shift());
+  return null;
+}
 
 const Chatbot = () => {
   const chatBoxRef = useRef(null);
@@ -15,6 +22,13 @@ const Chatbot = () => {
     }
     return storedId;
   });
+  const [history, setHistory] = useState(() => {
+    try {
+      return JSON.parse(getCookie("history") || "[]");
+    } catch {
+      return [];
+    }
+  });
 
   useEffect(() => {
     if (chatBoxRef.current) {
@@ -22,7 +36,11 @@ const Chatbot = () => {
     }
   }, [chat]);
 
-  const sendMessage = () => {
+  const sendMessage=()=>{
+    if (!navigator.onLine){
+      alert("You are offline. Please check your internet connection.");
+      return;
+   }
     if (!message.trim()) return;
 
     const userMsg = `<div class="bubble user-bubble">${message}</div>`;
@@ -35,7 +53,8 @@ const Chatbot = () => {
     fetch("http://localhost:5000/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message, sessionId })
+      credentials: "include",
+      body: JSON.stringify({ message, sessionId, history })
     })
       .then(res => res.json())
       .then(data => {
@@ -43,6 +62,14 @@ const Chatbot = () => {
         const newChat = updatedChat + botMsg;
         setChat(newChat);
         localStorage.setItem("chatHistory", newChat);
+
+        //Update history from cookie after response
+        try {
+          const updatedHistory = JSON.parse(getCookie("history") || "[]");
+          setHistory(updatedHistory);
+        } catch {
+    
+        }
         scrollToBottom();
       })
       .catch(() => {
@@ -66,9 +93,11 @@ const Chatbot = () => {
     localStorage.removeItem("sessionId");
     setChat("");
     setFirstMessageSent(false);
+    setHistory([]);
     const newId = crypto.randomUUID();
     localStorage.setItem("sessionId", newId);
     setSessionId(newId);
+    document.cookie = "history=[]; path=/";
   };
 
   const handleKeyDown = (e) => {

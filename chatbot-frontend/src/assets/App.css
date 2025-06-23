@@ -1,11 +1,11 @@
-.container {
+.container{
   position: relative;
   flex-grow: 1;
   padding: 10px 15px;
   background-color: transparent;
   overflow: hidden;
 }
-.bg-image {
+.bg-image{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,12 +20,10 @@
   opacity: 1;
   transition: opacity 0.6s ease;
 }
-
-.container.fade-bg .bg-image {
+.container.fade-bg .bg-image{
   opacity: 0.05;
 }
-
-.overlay {
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -35,11 +33,10 @@
   transition: background 0.5s ease;
   z-index: 1;
 }
-
-.overlay {
-  background: rgba(21, 23, 26, 0.8) !important;
+.overlay{
+  background: rgba(21, 23, 26, 0.8)!important;
 }
-.chat-wrapper {
+.chat-wrapper{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,7 +45,7 @@
   max-width: 600px;
   padding: 20px;
 }
-.chat-box {
+.chat-box{
   position: relative;
   width: 100%;
   height: 350px;
@@ -59,7 +56,7 @@
   gap: 10px;
   z-index: 2;
 }
-.message {
+.message{
   padding: 10px 15px;
   border-radius: 20px;
   max-width: 70%;
@@ -67,26 +64,26 @@
   font-size: 16px;
   line-height: 1.4;
 }
-.user {
+.user{
   align-self: flex-end;
   background: rgba(132, 192, 245, 0.95);
   color: rgb(231, 226, 226);
   border-bottom-right-radius: 0;
 }
-.bot {
+.bot{
   align-self: flex-start;
   background: rgba(164, 166, 172, 0.95);
   color: rgb(35, 39, 41);
   border-bottom-left-radius: 0;
 }
-.input-section {
+.input-section{
   display: flex;
   align-items: center;
   gap: 10px;
   margin-top: 10px;
   z-index: 2;
 }
-input[type="text"] {
+input[type="text"]{
   flex-grow: 1;
   padding: 10px 15px;
   border-radius: 20px;
@@ -96,7 +93,7 @@ input[type="text"] {
   background-color: #c9dff3;
   color: #020202;
 }
-.circle-send {
+.circle-sen {
   display: flex;
   width: 40px;
   height: 40px;
@@ -110,13 +107,13 @@ input[type="text"] {
   border: none;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
-.reset-wrapper {
+.reset-wrapper{
   display: flex;
   justify-content: center;
   margin-top: 5px;
   z-index: 2;
 }
-.reset-btn {
+.reset-btn{
   padding: 8px 20px;
   font-size: 14px;
   background: #f53243;
@@ -125,13 +122,13 @@ input[type="text"] {
   border-radius: 20px;
   cursor: pointer;
 }
-.circle-send:hover {
+.circle-send:hover{
   background: #0056b3;
 }
-.reset-btn:hover {
+.reset-btn:hover{
   background: #a71d2a;
 }
-.bubble {
+.bubble{
   max-width: 85%;
   padding: 10px 15px;
   border-radius: 18px;
@@ -139,19 +136,19 @@ input[type="text"] {
   line-height: 1.4;
   word-wrap: break-word;
 }
-.user-bubble {
+.user-bubble{
   background-color: #84c0f5;
   color: #1a1515;
   align-self: flex-end;
   border-bottom-right-radius: 0;
 }
-.bot-bubble {
+.bot-bubble{
   background-color: #0192f3;
   color: #ffffff;
   align-self: flex-start;
   border-bottom-left-radius: 0;
 }
-.chat-container {
+.chat-container{
   position: relative;
   height: 100vh;
   width: 100%;

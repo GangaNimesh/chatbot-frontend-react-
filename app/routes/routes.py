@@ -10,4 +10,3 @@ def chat():
         return handle_chat_request(data)
     except Exception as e:
         return jsonify({"error": "Something went wrong."}), 500 #internal server error
-
