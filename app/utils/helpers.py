@@ -1,5 +1,5 @@
-import json
-import time
+import json #for reading and writing json files
+import time #for adding delays
 import logging
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -38,4 +38,4 @@ def load_keyword_instructions():
         return instructions
     except Exception as e:
         logging.exception("Failed to load keyword_instructions.json.")
-        return{}
+        return{} #returns empty dict if error occurs

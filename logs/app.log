@@ -16,3 +16,64 @@
 [2025-06-23 15:55:58,871] INFO in user_service: User input received: hi
 [2025-06-23 15:55:59,562] INFO in user_service: Groq API responded successfully.
 [2025-06-23 15:55:59,564] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-24 08:57:40,081] INFO in __init__: Logging is set up.
+[2025-06-24 08:57:59,651] INFO in __init__: App created and blueprint registered.
+[2025-06-24 08:58:00,258] INFO in __init__: Logging is set up.
+[2025-06-24 08:58:20,235] INFO in __init__: App created and blueprint registered.
+[2025-06-24 08:59:02,982] INFO in user_service: User input received: hey
+[2025-06-24 08:59:02,984] INFO in user_service: Session ID: a3551467-6b9a-43cd-9126-7ff14a0b947c
+[2025-06-24 08:59:02,985] INFO in user_service: User input received: hey
+[2025-06-24 08:59:03,794] INFO in user_service: Groq API responded successfully.
+[2025-06-24 08:59:03,795] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-24 10:21:54,838] INFO in __init__: Logging is set up.
+[2025-06-24 10:22:13,513] INFO in __init__: App created and blueprint registered.
+[2025-06-24 10:22:13,960] INFO in __init__: Logging is set up.
+[2025-06-24 10:22:30,851] INFO in __init__: App created and blueprint registered.
+[2025-06-24 10:23:11,590] INFO in user_service: User input received: hi
+[2025-06-24 10:23:11,591] INFO in user_service: Session ID: 421d64ed-8957-4e02-b356-027acae03fe1
+[2025-06-24 10:23:11,591] INFO in user_service: User input received: hi
+[2025-06-24 10:23:13,061] INFO in user_service: Groq API responded successfully.
+[2025-06-24 10:23:13,064] INFO in user_service: Bot response: Hello, how can I help you today?
+[2025-06-24 18:16:37,198] INFO in __init__: Logging is set up.
+[2025-06-24 18:16:54,772] INFO in __init__: App created and blueprint registered.
+[2025-06-24 18:16:55,096] INFO in __init__: Logging is set up.
+[2025-06-24 18:17:31,172] INFO in __init__: App created and blueprint registered.
+[2025-06-24 18:17:31,204] INFO in user_service: User input received: hi
+[2025-06-24 18:17:31,205] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
+[2025-06-24 18:17:31,206] INFO in user_service: User input received: hi
+[2025-06-24 18:17:31,881] INFO in user_service: Groq API responded successfully.
+[2025-06-24 18:17:31,882] INFO in user_service: Bot response: Hello, how can I assist you today?
+[2025-06-24 18:17:35,441] INFO in user_service: User input received: locations
+[2025-06-24 18:17:35,443] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
+[2025-06-24 18:17:35,445] INFO in user_service: User input received: locations
+[2025-06-24 18:17:36,113] INFO in user_service: Groq API responded successfully.
+[2025-06-24 18:17:36,114] INFO in user_service: Bot response: Innovature has offices in the following locations: 
+
+1. India
+2. Singapore
+3. Canada
+4. Japan (HQ)
+5. USA
+[2025-06-24 18:17:42,365] INFO in user_service: User input received: give more details
+[2025-06-24 18:17:42,366] INFO in user_service: Matched keywords: ['ai']
+[2025-06-24 18:17:42,366] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
+[2025-06-24 18:17:42,367] INFO in user_service: User input received: give more details
+[2025-06-24 18:17:43,446] INFO in user_service: Groq API responded successfully.
+[2025-06-24 18:17:43,449] INFO in user_service: Bot response: Innovature's AI Services include a range of solutions to help businesses leverage the power of artificial intelligence. Some of the key areas of focus include:
+
+1. Conversational AI: Innovature's AI engineers can help design and implement chatbots and other conversational interfaces to improve customer engagement and automate routine tasks.
+2. Predictive Analytics: The company's data scientists and AI experts can help organizations build predictive models to forecast customer behavior, identify trends, and make data-driven decisions.
+3. Computer Vision: Innovature's AI services also include computer vision capabilities, which can be used for image and video analysis, object detection, and other applications.
+
+Innovature's AI workflow involves the following steps:
+
+1. Cloud-based AI Infrastructure: The company helps
+[2025-06-24 18:18:29,280] INFO in user_service: User input received: ceo?
+[2025-06-24 18:18:29,282] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
+[2025-06-24 18:18:29,284] INFO in user_service: User input received: ceo?
+[2025-06-24 18:18:29,944] INFO in user_service: Groq API responded successfully.
+[2025-06-24 18:18:29,947] INFO in user_service: Bot response: The CEO of Innovature is Gijo Sivan.
+[2025-06-24 18:18:58,875] INFO in __init__: Logging is set up.
+[2025-06-24 18:19:35,929] INFO in __init__: App created and blueprint registered.
+[2025-06-24 18:19:36,886] INFO in __init__: Logging is set up.
+[2025-06-24 18:20:05,066] INFO in __init__: App created and blueprint registered.

@@ -1,4 +1,4 @@
-import os #accessing api key
+import os #accessing api key from env
 import json
 import requests #http requests to groq
 from flask import current_app, jsonify
@@ -11,7 +11,7 @@ URL = "https://api.groq.com/openai/v1/chat/completions"
 manual_data = load_manual_data()
 keyword_instructions = load_keyword_instructions()
 scraped_site_data = scrape_website_selenium("https://innovature.ai/")
-site_data = json.dumps(manual_data, indent=2) + "\n" + scraped_site_data
+site_data = json.dumps(manual_data, indent=2) + "\n" + scraped_site_data #manual+scraped data
 
 def chat_with_groq(user_prompt, context_data):
     headers ={
@@ -70,7 +70,7 @@ def handle_chat_request(data):
         history_text = "\n".join([f"User: {pair['user']}\nBot: {pair['bot']}" for pair in session_history])
         current_app.logger.info(f"Session ID: {session_id}")
         current_app.logger.info(f"User input received: {user_input}")
-        final_context = site_data + extra_instruction + "\n\nPrevious Conversation:\n" + history_text
+        final_context = site_data + extra_instruction + history_text
         response_text = chat_with_groq(user_input, final_context)
         conversation_history[session_id].append({"user": user_input, "bot": response_text})
         current_app.logger.info(f"Bot response: {response_text}")
