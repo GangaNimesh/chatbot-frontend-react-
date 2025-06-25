@@ -40,7 +40,7 @@ const HomePage = () =>{
 
       {/*Toggle Button*/}
       <button onClick={() => setShowChatbot(!showChatbot)} className="chatbot-toggle-btn">
-        {showChatbot ? '×' : <FaComments size={24} />}
+        {showChatbot ? '×' : <FaComments size={24}/>}
       </button>
 
       {/*Popup*/}
@@ -52,5 +52,4 @@ const HomePage = () =>{
     </div>
   );
 };
-
 export default HomePage;

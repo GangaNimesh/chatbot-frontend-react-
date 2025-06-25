@@ -50,7 +50,7 @@ const Chatbot=()=>{
   };
   const scrollToBottom = () =>{
     setTimeout(() => {
-      if(chatBoxRef.current) {
+      if(chatBoxRef.current){
         chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight;
       }
     },100);

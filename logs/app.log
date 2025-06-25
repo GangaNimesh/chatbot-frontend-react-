@@ -1,79 +1,40 @@
-[2025-06-23 15:21:06,180] INFO in __init__: Logging is set up.
-[2025-06-23 15:21:28,064] INFO in __init__: App created and blueprint registered.
-[2025-06-23 15:21:28,388] INFO in __init__: Logging is set up.
-[2025-06-23 15:21:46,121] INFO in __init__: App created and blueprint registered.
-[2025-06-23 15:21:58,685] INFO in user_service: User input received: hi
-[2025-06-23 15:21:58,686] INFO in user_service: Session ID: 2475b191-25d0-49af-94d9-d405e866a274
-[2025-06-23 15:21:58,687] INFO in user_service: User input received: hi
-[2025-06-23 15:21:59,412] INFO in user_service: Groq API responded successfully.
-[2025-06-23 15:21:59,413] INFO in user_service: Bot response: Hello, I'm here to assist you. How can I help you today?
-[2025-06-23 15:55:20,375] INFO in __init__: Logging is set up.
-[2025-06-23 15:55:37,675] INFO in __init__: App created and blueprint registered.
-[2025-06-23 15:55:38,023] INFO in __init__: Logging is set up.
-[2025-06-23 15:55:58,543] INFO in __init__: App created and blueprint registered.
-[2025-06-23 15:55:58,869] INFO in user_service: User input received: hi
-[2025-06-23 15:55:58,870] INFO in user_service: Session ID: 63db863b-9911-4dc4-9530-ca9a3cb64870
-[2025-06-23 15:55:58,871] INFO in user_service: User input received: hi
-[2025-06-23 15:55:59,562] INFO in user_service: Groq API responded successfully.
-[2025-06-23 15:55:59,564] INFO in user_service: Bot response: Hello, how can I assist you today?
-[2025-06-24 08:57:40,081] INFO in __init__: Logging is set up.
-[2025-06-24 08:57:59,651] INFO in __init__: App created and blueprint registered.
-[2025-06-24 08:58:00,258] INFO in __init__: Logging is set up.
-[2025-06-24 08:58:20,235] INFO in __init__: App created and blueprint registered.
-[2025-06-24 08:59:02,982] INFO in user_service: User input received: hey
-[2025-06-24 08:59:02,984] INFO in user_service: Session ID: a3551467-6b9a-43cd-9126-7ff14a0b947c
-[2025-06-24 08:59:02,985] INFO in user_service: User input received: hey
-[2025-06-24 08:59:03,794] INFO in user_service: Groq API responded successfully.
-[2025-06-24 08:59:03,795] INFO in user_service: Bot response: Hello, how can I assist you today?
-[2025-06-24 10:21:54,838] INFO in __init__: Logging is set up.
-[2025-06-24 10:22:13,513] INFO in __init__: App created and blueprint registered.
-[2025-06-24 10:22:13,960] INFO in __init__: Logging is set up.
-[2025-06-24 10:22:30,851] INFO in __init__: App created and blueprint registered.
-[2025-06-24 10:23:11,590] INFO in user_service: User input received: hi
-[2025-06-24 10:23:11,591] INFO in user_service: Session ID: 421d64ed-8957-4e02-b356-027acae03fe1
-[2025-06-24 10:23:11,591] INFO in user_service: User input received: hi
-[2025-06-24 10:23:13,061] INFO in user_service: Groq API responded successfully.
-[2025-06-24 10:23:13,064] INFO in user_service: Bot response: Hello, how can I help you today?
-[2025-06-24 18:16:37,198] INFO in __init__: Logging is set up.
-[2025-06-24 18:16:54,772] INFO in __init__: App created and blueprint registered.
-[2025-06-24 18:16:55,096] INFO in __init__: Logging is set up.
-[2025-06-24 18:17:31,172] INFO in __init__: App created and blueprint registered.
-[2025-06-24 18:17:31,204] INFO in user_service: User input received: hi
-[2025-06-24 18:17:31,205] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
-[2025-06-24 18:17:31,206] INFO in user_service: User input received: hi
-[2025-06-24 18:17:31,881] INFO in user_service: Groq API responded successfully.
-[2025-06-24 18:17:31,882] INFO in user_service: Bot response: Hello, how can I assist you today?
-[2025-06-24 18:17:35,441] INFO in user_service: User input received: locations
-[2025-06-24 18:17:35,443] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
-[2025-06-24 18:17:35,445] INFO in user_service: User input received: locations
-[2025-06-24 18:17:36,113] INFO in user_service: Groq API responded successfully.
-[2025-06-24 18:17:36,114] INFO in user_service: Bot response: Innovature has offices in the following locations: 
+[2025-06-25 09:23:32,919] INFO in __init__: App created and blueprint registered.
+[2025-06-25 09:23:33,250] INFO in __init__: Logging is set up.
+[2025-06-25 09:23:51,073] INFO in __init__: App created and blueprint registered.
+[2025-06-25 09:23:56,774] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: l
+[2025-06-25 09:23:57,477] INFO in user_service: Groq API responded successfully.
+[2025-06-25 09:23:57,478] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: It seems like your question got cut off. Could you please rephrase or complete your question so I can provide a more accurate and helpful response?
+[2025-06-25 09:23:59,730] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: k
+[2025-06-25 09:24:00,414] INFO in user_service: Groq API responded successfully.
+[2025-06-25 09:24:00,415] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: It seems like your question is incomplete. Could you please rephrase or complete your question so I can provide a more accurate and helpful response?
+[2025-06-25 09:24:01,533] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: f
+[2025-06-25 09:24:02,215] INFO in user_service: Groq API responded successfully.
+[2025-06-25 09:24:02,216] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: It seems like your question is incomplete. Could you please rephrase or complete your question so I can provide a more accurate and helpful response?
+[2025-06-25 09:24:03,407] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: s
+[2025-06-25 09:24:03,662] ERROR in user_service: Groq API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jxa1rxh6ebprsa3akr1rte7s` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11281, Requested 4201. Please try again in 17.41s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
 
-1. India
-2. Singapore
-3. Canada
-4. Japan (HQ)
-5. USA
-[2025-06-24 18:17:42,365] INFO in user_service: User input received: give more details
-[2025-06-24 18:17:42,366] INFO in user_service: Matched keywords: ['ai']
-[2025-06-24 18:17:42,366] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
-[2025-06-24 18:17:42,367] INFO in user_service: User input received: give more details
-[2025-06-24 18:17:43,446] INFO in user_service: Groq API responded successfully.
-[2025-06-24 18:17:43,449] INFO in user_service: Bot response: Innovature's AI Services include a range of solutions to help businesses leverage the power of artificial intelligence. Some of the key areas of focus include:
+[2025-06-25 09:24:03,664] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: Something went wrong
+[2025-06-25 09:24:04,097] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: fds
+[2025-06-25 09:24:05,382] ERROR in user_service: Groq API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jxa1rxh6ebprsa3akr1rte7s` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 10937, Requested 4210. Please try again in 15.732s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
 
-1. Conversational AI: Innovature's AI engineers can help design and implement chatbots and other conversational interfaces to improve customer engagement and automate routine tasks.
-2. Predictive Analytics: The company's data scientists and AI experts can help organizations build predictive models to forecast customer behavior, identify trends, and make data-driven decisions.
-3. Computer Vision: Innovature's AI services also include computer vision capabilities, which can be used for image and video analysis, object detection, and other applications.
+[2025-06-25 09:24:05,383] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: Something went wrong
+[2025-06-25 09:25:03,643] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: blog
+[2025-06-25 09:25:04,831] INFO in user_service: Groq API responded successfully.
+[2025-06-25 09:25:04,833] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: Innovature has a section on blogs, which includes the following articles:
 
-Innovature's AI workflow involves the following steps:
+1. "LLMs Changing SEO" by Naoki Suzuki, dated May 28, 2025
+2. "Strategic Partners for Startups" by Anand Sarath, dated May 20, 2025
+3. "Zoho CRM for Scaling" by Anand Sarath, dated May 13, 2025
+4. "GPT-4 vs Bedrock for AI Tools" by Naoki Suzuki, dated May 8, 2025
 
-1. Cloud-based AI Infrastructure: The company helps
-[2025-06-24 18:18:29,280] INFO in user_service: User input received: ceo?
-[2025-06-24 18:18:29,282] INFO in user_service: Session ID: 07e8a368-ba00-4814-b09f-30830603d43e
-[2025-06-24 18:18:29,284] INFO in user_service: User input received: ceo?
-[2025-06-24 18:18:29,944] INFO in user_service: Groq API responded successfully.
-[2025-06-24 18:18:29,947] INFO in user_service: Bot response: The CEO of Innovature is Gijo Sivan.
-[2025-06-24 18:18:58,875] INFO in __init__: Logging is set up.
-[2025-06-24 18:19:35,929] INFO in __init__: App created and blueprint registered.
-[2025-06-24 18:19:36,886] INFO in __init__: Logging is set up.
-[2025-06-24 18:20:05,066] INFO in __init__: App created and blueprint registered.
+These blogs seem to focus on topics related to technology, business, and innovation. If you're looking for more information on a specific blog or topic, please let me know and I
+[2025-06-25 09:34:02,569] INFO in __init__: Logging is set up.
+[2025-06-25 09:34:20,856] INFO in __init__: App created and blueprint registered.
+[2025-06-25 09:34:21,322] INFO in __init__: Logging is set up.
+[2025-06-25 09:34:42,562] INFO in __init__: App created and blueprint registered.
+[2025-06-25 09:35:49,307] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] User: rajagiri
+[2025-06-25 09:35:50,053] INFO in user_service: Groq API responded successfully.
+[2025-06-25 09:35:50,055] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] Bot: I don't have information about "Rajagiri" related to Innovature. Can you provide more context or details?
+[2025-06-25 09:35:59,565] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] User: sivan
+[2025-06-25 09:36:00,203] INFO in user_service: Groq API responded successfully.
+[2025-06-25 09:36:00,205] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] Bot: Gijo Sivan is the CEO, Global of Innovature.

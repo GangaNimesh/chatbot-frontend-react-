@@ -348,6 +348,33 @@
       },
       "presence": ["India", "Singapore", "Canada", "Japan", "USA"]
     },
+    "locations": {
+    "india": {
+      "call": "+91-484-4038120",
+      "email": "in-sales@innovature.ai",
+      "address": "Trans Asia Cyber Park 18th Floor, Infopark Phase 2, Kakkanad, Kerala 682303"
+    },
+    "japan": {
+      "call": "+81-03-6265-6474",
+      "email": "jp-sales@innovature.ai",
+      "address": "Y’S Coral Build 5F, Kanda Jimbocho 2-20-13, Chiyoda Ku, Tokyo 101-0051, Japan"
+    },
+    "singapore": {
+      "call": "+81-03-6265-6474",
+      "email": "sg-sales@innovature.ai",
+      "address": "16 Raffles Quay, #33-03 Hong Leong Building, 048581, Singapore"
+    },
+    "usa": {
+      "call": "+1-973-452-8598",
+      "email": "us-sales@innovature.ai",
+      "address": "1098, Ann Arbor Rd, Suite 160, Plymouth, Michigan 48170, USA"
+    },
+    "canada": {
+      "call": "+1-647-832-8598",
+      "email": "ca-sales@innovature.ai",
+      "address": "44, Pace Crescent, Bradford West Gwillimbury, Ontario L3Z 3H8, Canada"
+    }
+  },
   
   "careers": {
     "intro": "Explore New Horizons",
