@@ -38,3 +38,7 @@ These blogs seem to focus on topics related to technology, business, and innovat
 [2025-06-25 09:35:59,565] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] User: sivan
 [2025-06-25 09:36:00,203] INFO in user_service: Groq API responded successfully.
 [2025-06-25 09:36:00,205] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] Bot: Gijo Sivan is the CEO, Global of Innovature.
+[2025-06-25 10:12:57,970] INFO in __init__: Logging is set up.
+[2025-06-25 10:13:25,970] INFO in __init__: App created and blueprint registered.
+[2025-06-25 10:13:26,976] INFO in __init__: Logging is set up.
+[2025-06-25 10:13:50,792] INFO in __init__: App created and blueprint registered.
