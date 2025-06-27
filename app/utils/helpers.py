@@ -15,7 +15,7 @@ def scrape_website_selenium(url):
         logging.info(f"Scraping website: {url}")
         driver.get(url)
         time.sleep(5)
-        text = driver.find_element(By.TAG_NAME, "body").text[:2000]
+        text = driver.find_element(By.TAG_NAME, "body").text[:10000]
         logging.info("Website scraping successful.")
         return text
     except Exception as e:

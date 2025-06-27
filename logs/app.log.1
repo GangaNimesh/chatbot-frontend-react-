@@ -1,113 +1,147 @@
-[2025-06-25 09:12:08,522] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:12:08,858] INFO in __init__: Logging is set up.
-[2025-06-25 09:12:26,399] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:12:29,748] INFO in user_service: User input received: ceo?
-[2025-06-25 09:12:29,750] INFO in user_service: Session ID: c1f2139f-6550-455e-8b9e-f557b929552e
-[2025-06-25 09:12:29,752] INFO in user_service: User input received: ceo?
-[2025-06-25 09:12:30,300] ERROR in user_service: Exception while calling Groq API.
-Traceback (most recent call last):
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\response.py", line 754, in _error_catcher
-    yield
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\response.py", line 900, in _raw_read
-    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
-urllib3.exceptions.IncompleteRead: IncompleteRead(0 bytes read, 19 more expected)
+[2025-06-26 15:39:40,282] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:39:40,751] INFO in __init__: Logging is set up.
+[2025-06-26 15:40:20,584] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:40:54,953] INFO in user_service: [Session d177354d-bef8-4b97-977f-ae4f1d282e51] User: places
+[2025-06-26 15:40:55,696] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:40:55,699] INFO in user_service: [Session d177354d-bef8-4b97-977f-ae4f1d282e51] Bot: Innovature has offices in the following locations: 
 
-The above exception was the direct cause of the following exception:
+1. India
+2. Singapore
+3. Canada
+4. Japan (HQ)
+5. USA
+[2025-06-26 15:41:29,616] INFO in user_service: [Session d177354d-bef8-4b97-977f-ae4f1d282e51] User: more details
+[2025-06-26 15:41:29,618] INFO in user_service: [Session d177354d-bef8-4b97-977f-ae4f1d282e51] Matched keywords: ['ai']
+[2025-06-26 15:41:30,511] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:41:30,514] INFO in user_service: [Session d177354d-bef8-4b97-977f-ae4f1d282e51] Bot: Innovature's AI Services include a workflow with the following components: 
 
-Traceback (most recent call last):
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 820, in generate
-    yield from self.raw.stream(chunk_size, decode_content=True)
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\response.py", line 1066, in stream
-    data = self.read(amt=amt, decode_content=decode_content)
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\response.py", line 955, in read
-    data = self._raw_read(amt)
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\response.py", line 878, in _raw_read
-    with self._error_catcher():
-         ~~~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
-    self.gen.throw(value)
-    ~~~~~~~~~~~~~~^^^^^^^
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\response.py", line 778, in _error_catcher
-    raise ProtocolError(arg, e) from e
-urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(0 bytes read, 19 more expected)', IncompleteRead(0 bytes read, 19 more expected))
+1. Cloud-based AI Infra
+2. Data Cleaning & RAG
+3. Modeling (NLU, predictions)
+4. MLOps Deployment 
 
-During handling of the above exception, another exception occurred:
+These services aim to provide scalable and adaptive AI systems for businesses.
+[2025-06-26 15:42:22,140] INFO in __init__: Logging is set up.
+[2025-06-26 15:42:40,710] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:42:48,163] INFO in __init__: Logging is set up.
+[2025-06-26 15:43:05,129] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:43:10,999] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] User: places
+[2025-06-26 15:43:11,725] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:43:11,727] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Bot: Innovature has offices in the following locations: 
 
-Traceback (most recent call last):
-  File "C:\Users\Ganga Nimesh\Desktop\chatbot react\app\services\user_service.py", line 45, in chat_with_groq
-    response = requests.post(URL, json=payload, headers=headers)
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 115, in post
-    return request("post", url, data=data, json=json, **kwargs)
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 746, in send
-    r.content
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 902, in content
-    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
-                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Ganga Nimesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 822, in generate
-    raise ChunkedEncodingError(e)
-requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(0 bytes read, 19 more expected)', IncompleteRead(0 bytes read, 19 more expected))
-[2025-06-25 09:12:30,464] INFO in user_service: Bot response: Something went wrong
-[2025-06-25 09:13:19,048] INFO in user_service: User input received: who is the ceo?
-[2025-06-25 09:13:19,050] INFO in user_service: Session ID: c1f2139f-6550-455e-8b9e-f557b929552e
-[2025-06-25 09:13:19,051] INFO in user_service: User input received: who is the ceo?
-[2025-06-25 09:13:19,796] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:13:19,797] INFO in user_service: Bot response: The CEO of Innovature is Ganga Nimesh (Global CEO) and Ravindranath A V (CEO, Americas).
-[2025-06-25 09:13:30,073] INFO in user_service: User input received: ceo
-[2025-06-25 09:13:30,074] INFO in user_service: Session ID: c1f2139f-6550-455e-8b9e-f557b929552e
-[2025-06-25 09:13:30,074] INFO in user_service: User input received: ceo
-[2025-06-25 09:13:30,726] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:13:30,728] INFO in user_service: Bot response: The CEO of Innovature is Ganga Nimesh (Global CEO) and Ravindranath A V (CEO, Americas).
-[2025-06-25 09:15:06,871] INFO in __init__: Logging is set up.
-[2025-06-25 09:15:24,896] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:15:25,265] INFO in __init__: Logging is set up.
-[2025-06-25 09:15:43,255] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:15:47,432] INFO in user_service: User input received: b
-[2025-06-25 09:15:47,433] INFO in user_service: Session ID: 3234a73d-6698-42b5-bacf-5c047900ccc4
-[2025-06-25 09:15:47,433] INFO in user_service: User input received: b
-[2025-06-25 09:15:48,117] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:15:48,117] INFO in user_service: Bot response: I don't have sufficient information to provide a relevant answer. Could you please provide more context or clarify your question?
-[2025-06-25 09:16:01,852] INFO in user_service: User input received: blo
-[2025-06-25 09:16:01,854] INFO in user_service: Session ID: 3234a73d-6698-42b5-bacf-5c047900ccc4
-[2025-06-25 09:16:01,855] INFO in user_service: User input received: blo
-[2025-06-25 09:16:02,999] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:16:03,000] INFO in user_service: Bot response: Innovature has a section on blogs, which includes four articles: 
+1. India
+2. Singapore
+3. Canada
+4. Japan (HQ)
+5. USA
+[2025-06-26 15:43:16,400] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] User: more detais
+[2025-06-26 15:43:16,401] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Matched keywords: ['ai']
+[2025-06-26 15:43:17,530] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:43:17,532] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Bot: Innovature's AI Services include:
 
-1. "LLMs Changing SEO" by Naoki Suzuki, published on May 28, 2025.
-2. "Strategic Partners for Startups" by Anand Sarath, published on May 20, 2025.
-3. "Zoho CRM for Scaling" by Anand Sarath, published on May 13, 2025.
-4. "GPT-4 vs Bedrock for AI Tools" by Naoki Suzuki, published on May 8, 2025.
+1. Conversational AI: Empowering businesses with chatbots.
+2. Predictive Analytics: Helping turn AI ambition into action with predictions and simulations.
+3. Computer Vision: Not explicitly mentioned, but Innovature's AI services include transforming AI ambition into action, which may involve computer vision.
 
-These blogs discuss various topics such as the impact of Large Language Models on SEO, the importance of strategic partnerships for startups, and the use of Zoho CRM for
-[2025-06-25 09:16:08,608] INFO in user_service: User input received: news
-[2025-06-25 09:16:08,610] INFO in user_service: Session ID: 3234a73d-6698-42b5-bacf-5c047900ccc4
-[2025-06-25 09:16:08,612] INFO in user_service: User input received: news
-[2025-06-25 09:16:09,590] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:16:09,593] INFO in user_service: Bot response: Innovature does not have a specific section on "news". However, they do have a section on "blogs" which includes articles on various topics such as the impact of Large Language Models on SEO, the importance of strategic partnerships for startups, and the use of Zoho CRM for scaling. Additionally, they have a section on "highlights" which mentions topics like "E-comm Compliance Risks", "Captive Centers in Tech", "European Accessibility Act", and "Zoho Projects Saves Time", but it does not appear to be a traditional news section.
-[2025-06-25 09:16:21,090] INFO in user_service: User input received: recent
-[2025-06-25 09:16:21,091] INFO in user_service: Session ID: 3234a73d-6698-42b5-bacf-5c047900ccc4
-[2025-06-25 09:16:21,093] INFO in user_service: User input received: recent
-[2025-06-25 09:16:21,353] ERROR in user_service: Groq API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jwz9r1bgfkjrsrn927k96qrh` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98794, Requested 4391. Please try again in 45m51.308s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+The AI workflow at Innovature includes:
 
-[2025-06-25 09:16:21,357] INFO in user_service: Bot response: Something went wrong
-[2025-06-25 09:16:45,923] INFO in user_service: User input received: recent
-[2025-06-25 09:16:45,924] INFO in user_service: Session ID: 3234a73d-6698-42b5-bacf-5c047900ccc4
-[2025-06-25 09:16:45,924] INFO in user_service: User input received: recent
-[2025-06-25 09:16:46,209] ERROR in user_service: Groq API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jwz9r1bgfkjrsrn927k96qrh` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98765, Requested 4401. Please try again in 45m35.086s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+1. Cloud-based AI Infra
+2. Data Cleaning & RAG
+3. Modeling (NLU, predictions)
+4. MLOps Deployment
 
-[2025-06-25 09:16:46,212] INFO in user_service: Bot response: Something went wrong
-[2025-06-25 09:17:53,782] INFO in __init__: Logging is set up.
-[2025-06-25 09:18:13,339] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:18:13,690] INFO in __init__: Logging is set up.
-[2025-06-25 09:18:34,729] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:18:35,163] INFO in user_service: User input received: blo
-[2025-06-25 09:18:35,164] INFO in user_service: Session ID: 8c2407c8-2b17-4aa5-931f-6bb3bf7627f7
-[2025-06-25 09:18:35,165] INFO in user_service: User input received: blo
-[2025-06-25 09:18:36,174] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:18:42,453] INFO in user_service: User input received: recent
-[2025-06-25 09:18:42,454] INFO in user_service: Session ID: 8c2407c8-2b17-4aa5-931f-6bb3bf7627f7
-[2025-06-25 09:23:15,454] INFO in __init__: Logging is set up.
+These services aim to help businesses scale smarter and faster, operate safer, and grow smarter across borders.
+[2025-06-26 15:43:24,238] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] User: more details
+[2025-06-26 15:43:24,239] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Matched keywords: ['ai']
+[2025-06-26 15:43:25,350] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:43:25,351] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Bot: Innovature's AI Services include:
+
+1. Cloud-based AI Infrastructure: Providing a scalable and secure infrastructure for AI applications.
+2. Data Cleaning and RAG (Data Quality): Ensuring high-quality data for AI model training and deployment.
+3. Modeling (NLU, Predictions): Building and training AI models for natural language understanding and predictive analytics.
+4. MLOps Deployment: Streamlining the deployment of AI models into production environments.
+
+Additionally, Innovature's AI services aim to empower businesses with chatbots, predictions, and simulations, helping turn AI ambition into action. 
+
+Innovature's expertise in AI is also reflected in their ability to transform dietary habits with AI-powered coaching, as seen in one of their case studies, "Transform
+[2025-06-26 15:46:11,231] INFO in __init__: Logging is set up.
+[2025-06-26 15:46:28,089] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:46:33,568] INFO in __init__: Logging is set up.
+[2025-06-26 15:47:45,819] INFO in __init__: Logging is set up.
+[2025-06-26 15:48:02,928] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:48:03,268] INFO in __init__: Logging is set up.
+[2025-06-26 15:48:19,033] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:49:53,338] INFO in __init__: Logging is set up.
+[2025-06-26 15:50:09,818] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:51:25,156] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] User: locations
+[2025-06-26 15:51:25,917] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:51:25,917] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Bot: Innovature has offices in the following locations: 
+
+1. India 
+2. Singapore 
+3. Canada 
+4. Japan 
+5. USA
+[2025-06-26 15:51:32,292] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] User: more details
+[2025-06-26 15:51:32,294] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Matched keywords: ['ai']
+[2025-06-26 15:51:33,604] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:51:33,606] INFO in user_service: [Session 97e41ea6-4102-4864-8aa5-f924a5f8b8d4] Bot: Innovature has offices in the following locations with specific contact information:
+
+1. India - Trans Asia Cyber Park 18th Floor, Infopark Phase 2, Kakkanad, Kerala 682303, +91-484-4038120, in-sales@innovature.ai
+2. Japan - Y’S Coral Build 5F, Kanda Jimbocho 2-20-13, Chiyoda Ku, Tokyo 101-0051, Japan, +81-03-6265-6474, jp-sales@innovature.ai
+3. Singapore - 16 Raffles Quay, #33-03 Hong Leong Building, 048581, Singapore, +81-03-6265
+[2025-06-26 15:51:49,418] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] User: places
+[2025-06-26 15:51:50,117] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:51:50,118] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] Bot: Innovature has offices in the following places: 
+
+1. India
+2. Singapore
+3. Canada
+4. Japan
+5. USA
+[2025-06-26 15:51:54,939] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] User: more details
+[2025-06-26 15:51:54,941] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] Matched keywords: ['ai']
+[2025-06-26 15:51:55,189] ERROR in user_service: Groq API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jwz9r1bgfkjrsrn927k96qrh` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 7789, Requested 4523. Please try again in 1.555999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+[2025-06-26 15:51:55,190] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] Bot: Something went wrong
+[2025-06-26 15:52:29,344] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] User: more details
+[2025-06-26 15:52:29,345] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] Matched keywords: ['ai']
+[2025-06-26 15:52:30,248] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:52:30,249] INFO in user_service: [Session f861872a-a3f7-413f-b7e0-f20fd7ea2ba9] Bot: Innovature's AI services include a workflow of: 
+1. Cloud-based AI Infra
+2. Data Cleaning & RAG
+3. Modeling (NLU, predictions)
+4. MLOps Deployment
+[2025-06-26 15:53:07,510] INFO in __init__: Logging is set up.
+[2025-06-26 15:53:26,341] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:53:26,773] INFO in __init__: Logging is set up.
+[2025-06-26 15:53:47,077] INFO in __init__: App created and blueprint registered.
+[2025-06-26 15:53:47,125] INFO in user_service: [Session a112d753-b3ee-4c39-b081-b9c87846b2c5] User: places
+[2025-06-26 15:53:47,822] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:53:47,823] INFO in user_service: [Session a112d753-b3ee-4c39-b081-b9c87846b2c5] Bot: Innovature has offices in the following places: 
+
+1. India
+2. Singapore
+3. Canada
+4. Japan (HQ)
+5. USA
+[2025-06-26 15:53:53,607] INFO in user_service: [Session a112d753-b3ee-4c39-b081-b9c87846b2c5] User: more details
+[2025-06-26 15:53:53,609] INFO in user_service: [Session a112d753-b3ee-4c39-b081-b9c87846b2c5] Matched keywords: ['ai']
+[2025-06-26 15:53:54,687] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:53:54,689] INFO in user_service: [Session a112d753-b3ee-4c39-b081-b9c87846b2c5] Bot: Innovature's offices are located in the following places with their respective contact information:
+
+1. India - Trans Asia Cyber Park 18th Floor, Infopark Phase 2, Kakkanad, Kerala 682303, Phone: +91-484-4038120, Email: in-sales@innovature.ai
+2. Singapore - 16 Raffles Quay, #33-03 Hong Leong Building, 048581, Phone: +81-03-6265-6474, Email: sg-sales@innovature.ai
+3. Canada - 44, Pace Crescent, Bradford West Gwillimbury, Ontario L3Z 3H8, Phone: +1-647-832-859
+[2025-06-26 15:54:26,020] INFO in user_service: [Session eee0243e-9e13-45e6-92a0-7dc7fc438011] User: places
+[2025-06-26 15:54:26,709] INFO in user_service: Groq API responded successfully.
+[2025-06-26 15:54:26,709] INFO in user_service: [Session eee0243e-9e13-45e6-92a0-7dc7fc438011] Bot: Innovature has offices in the following places: 
+
+1. India
+2. Singapore
+3. Canada
+4. Japan (HQ)
+5. USA
+[2025-06-26 15:54:32,482] INFO in user_service: [Session eee0243e-9e13-45e6-92a0-7dc7fc438011] User: more detais
+[2025-06-26 15:54:32,484] INFO in user_service: [Session eee0243e-9e13-45e6-92a0-7dc7fc438011] Matched keywords: ['ai']
+[2025-06-27 08:59:38,274] INFO in __init__: Logging is set up.

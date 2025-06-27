@@ -1,44 +1,92 @@
-[2025-06-25 09:23:32,919] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:23:33,250] INFO in __init__: Logging is set up.
-[2025-06-25 09:23:51,073] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:23:56,774] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: l
-[2025-06-25 09:23:57,477] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:23:57,478] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: It seems like your question got cut off. Could you please rephrase or complete your question so I can provide a more accurate and helpful response?
-[2025-06-25 09:23:59,730] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: k
-[2025-06-25 09:24:00,414] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:24:00,415] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: It seems like your question is incomplete. Could you please rephrase or complete your question so I can provide a more accurate and helpful response?
-[2025-06-25 09:24:01,533] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: f
-[2025-06-25 09:24:02,215] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:24:02,216] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: It seems like your question is incomplete. Could you please rephrase or complete your question so I can provide a more accurate and helpful response?
-[2025-06-25 09:24:03,407] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: s
-[2025-06-25 09:24:03,662] ERROR in user_service: Groq API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jxa1rxh6ebprsa3akr1rte7s` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11281, Requested 4201. Please try again in 17.41s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+[2025-06-27 08:59:57,390] INFO in __init__: App created and blueprint registered.
+[2025-06-27 08:59:57,734] INFO in __init__: Logging is set up.
+[2025-06-27 09:00:14,817] INFO in __init__: App created and blueprint registered.
+[2025-06-27 09:01:33,323] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] User: places
+[2025-06-27 09:01:34,045] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:01:34,046] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] Bot: Innovature has offices in the following places: 
 
-[2025-06-25 09:24:03,664] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: Something went wrong
-[2025-06-25 09:24:04,097] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: fds
-[2025-06-25 09:24:05,382] ERROR in user_service: Groq API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jxa1rxh6ebprsa3akr1rte7s` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 10937, Requested 4210. Please try again in 15.732s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+1. India
+2. Singapore
+3. Canada
+4. Japan
+5. USA
+[2025-06-27 09:01:38,658] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] User: more details
+[2025-06-27 09:01:38,659] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] Matched keywords: ['ai']
+[2025-06-27 09:01:39,743] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:01:39,745] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] Bot: Innovature has specific contact information and addresses for each office location, including:
 
-[2025-06-25 09:24:05,383] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: Something went wrong
-[2025-06-25 09:25:03,643] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] User: blog
-[2025-06-25 09:25:04,831] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:25:04,833] INFO in user_service: [Session 96e8c57a-6adf-40dc-85a1-dc8604bd09c7] Bot: Innovature has a section on blogs, which includes the following articles:
+- India: Trans Asia Cyber Park, 18th Floor, Infopark Phase 2, Kakkanad, Kerala 682303, with contact email in-sales@innovature.ai and phone number +91-484-4038120.
+- Japan: Y’S Coral Build 5F, Kanda Jimbocho 2-20-13, Chiyoda Ku, Tokyo 101-0051, Japan, with contact email jp-sales@innovature.ai and phone number +81-03-6265-6474.
+- Singapore: 16 Raffles Quay, #33-03 Hong Leong Building, 048581
+[2025-06-27 09:01:45,333] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] User: a
+[2025-06-27 09:01:45,998] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:01:46,000] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] Bot: I don't have the information to answer your question. Can you please provide more context or clarify what you are looking for?
+[2025-06-27 09:01:59,811] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] User: who is the python team lead
+[2025-06-27 09:02:00,529] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:02:00,530] INFO in user_service: [Session d641e7a0-0158-41dc-bb24-0f7624fec9a5] Bot: The information provided does not specify a "Python Team Lead" by name. However, according to the careers section, there is a role called "Python Lead" available.
+[2025-06-27 09:11:43,409] INFO in __init__: Logging is set up.
+[2025-06-27 09:12:01,260] INFO in __init__: App created and blueprint registered.
+[2025-06-27 09:12:01,618] INFO in __init__: Logging is set up.
+[2025-06-27 09:12:20,179] INFO in __init__: App created and blueprint registered.
+[2025-06-27 09:12:24,360] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: places
+[2025-06-27 09:12:24,850] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:12:24,852] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: The places/ offices/ locations where Innovature has presence are: 
+- India
+- Singapore
+- Canada
+- Japan (HQ)
+- USA
+[2025-06-27 09:12:33,810] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: more details
+[2025-06-27 09:12:33,811] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Matched keywords: ['ai']
+[2025-06-27 09:12:34,513] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:12:34,515] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: Here are more details about Innovature's presence:
 
-1. "LLMs Changing SEO" by Naoki Suzuki, dated May 28, 2025
-2. "Strategic Partners for Startups" by Anand Sarath, dated May 20, 2025
-3. "Zoho CRM for Scaling" by Anand Sarath, dated May 13, 2025
-4. "GPT-4 vs Bedrock for AI Tools" by Naoki Suzuki, dated May 8, 2025
+Innovature has a global presence with offices in:
 
-These blogs seem to focus on topics related to technology, business, and innovation. If you're looking for more information on a specific blog or topic, please let me know and I
-[2025-06-25 09:34:02,569] INFO in __init__: Logging is set up.
-[2025-06-25 09:34:20,856] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:34:21,322] INFO in __init__: Logging is set up.
-[2025-06-25 09:34:42,562] INFO in __init__: App created and blueprint registered.
-[2025-06-25 09:35:49,307] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] User: rajagiri
-[2025-06-25 09:35:50,053] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:35:50,055] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] Bot: I don't have information about "Rajagiri" related to Innovature. Can you provide more context or details?
-[2025-06-25 09:35:59,565] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] User: sivan
-[2025-06-25 09:36:00,203] INFO in user_service: Groq API responded successfully.
-[2025-06-25 09:36:00,205] INFO in user_service: [Session 17d06625-b795-4763-9410-57d5efd340e2] Bot: Gijo Sivan is the CEO, Global of Innovature.
-[2025-06-25 10:12:57,970] INFO in __init__: Logging is set up.
-[2025-06-25 10:13:25,970] INFO in __init__: App created and blueprint registered.
-[2025-06-25 10:13:26,976] INFO in __init__: Logging is set up.
-[2025-06-25 10:13:50,792] INFO in __init__: App created and blueprint registered.
+1. **India**: 
+   - Call: +91-484-4038120
+   - Email: in-sales@innovature.ai
+   - Address: Trans Asia Cyber Park, 18th Floor, Infopark Phase 2, Kakkanad, Kerala 682303
+
+2. **Japan (HQ)**: 
+   - Call: +81-03-6265-6474
+   - Email: jp-sales@innovature.ai
+   - Address: Y’S Coral Build 5F, Kanda Jimbocho 2-20-13, Chiyoda Ku, Tokyo 101-0051
+[2025-06-27 09:12:50,802] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: a
+[2025-06-27 09:12:51,320] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:12:51,322] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: It seems like you didn't complete your question. Could you please provide more details or clarify what you are looking for? I'll be happy to help.
+[2025-06-27 09:13:03,637] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: who is the [python ream lead
+[2025-06-27 09:13:04,259] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:13:04,261] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: Based on the provided context, I couldn't find specific information about a "Python Team Lead." However, I can suggest some related information:
+
+- Innovature has job openings for technical roles, including a "Python Lead" and "Full Stack Dev (Python/React)" under the careers section.
+
+If you are looking for a specific person, I can tell you that Unnikrishnan S holds the role of VP at Innovature. 
+
+However, I couldn't find information on a specific Python Team Lead. If you need more information or clarification, please let me know.
+[2025-06-27 09:13:14,879] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: blogs
+[2025-06-27 09:13:15,576] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:13:15,578] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: Here are some details about Innovature's blogs:
+
+Innovature has published several blogs, including:
+
+1. **LLMs Changing SEO** by Naoki Suzuki on May 28, 2025 - Discusses how LLMs are transforming SEO.
+2. **Strategic Partners for Startups** by Anand Sarath on May 20, 2025 - Emphasizes the importance of partnerships for growth.
+3. **Zoho CRM for Scaling** by Anand Sarath on May 13, 2025 - Focuses on using Zoho for scaling and customer retention.
+4. **GPT-4 vs Bedrock for AI Tools** by Naoki Suzuki on May 8, 2025 - Compares GPT-4 and Bedrock
+[2025-06-27 09:13:36,713] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: are you a friendly chatbot
+[2025-06-27 09:13:36,715] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Matched keywords: ['ar']
+[2025-06-27 09:13:37,249] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:13:37,251] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: I am an AI assistant, and I am here to help you with your questions about Innovature. I don't have a personal tone or emotions, but I'll provide accurate and helpful information to the best of my abilities.
+[2025-06-27 09:13:55,875] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: from where did you get all these informations
+[2025-06-27 09:13:56,478] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:13:56,479] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: I was trained on a specific dataset that includes information about Innovature, which was provided in the initial prompt. This dataset contains details about Innovature's services, locations, team, blogs, and more. I generate responses based on this data to answer your questions.
+
+If you have any specific questions or need clarification on any topic, feel free to ask!
+[2025-06-27 09:14:18,887] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: which is the best it cmpany
+[2025-06-27 09:14:19,409] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:14:19,411] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: I don't have information about the best IT company. The provided context is specifically about Innovature, and I don't have data to compare or evaluate other companies. If you have questions about Innovature or need information on a specific topic, I'll do my best to help.
+[2025-06-27 09:14:40,011] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] User: are there any job openings in tcs
+[2025-06-27 09:14:40,012] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Matched keywords: ['ar']
+[2025-06-27 09:14:40,639] INFO in user_service: Groq API responded successfully.
+[2025-06-27 09:14:40,641] INFO in user_service: [Session 86e3a7e0-6718-4b90-bc1a-85bb1d4c1d0c] Bot: I don't have information about job openings in TCS (Tata Consultancy Services). The provided context is specifically about Innovature, and I don't have data about other companies, including TCS. If you have questions about Innovature or need information on a specific topic, I'll do my best to help. You can also check the official TCS website or job portals for information on job openings.
