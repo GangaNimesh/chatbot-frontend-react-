@@ -37,6 +37,7 @@ Create a .env file in the project root:
 ### Start the Backend Server :
 
    'python run.py'
+   
    The server will start at: http://localhost:5000
 
 
@@ -59,6 +60,7 @@ npm
 ### Run frontend :
 
    'npm start'
+
    The frontend will run at: http://localhost:3000
 
 
