@@ -1,35 +1,87 @@
 # AI chatbot for Innovature.ai
 
-This project is an AI chatbot that answers queries about Innovature.ai. It uses Groq's LLaMA 3 model via API, with a Flask(python) backend and React frontend.
+This project is an AI-powered chatbot built to provide intelligent and instant responses to user queries about Innovature.ai. It utilizes Groq’s meta-llama/llama-4-scout-17b-16e-instruct model via API, combining a Flask (Python) backend with a React frontend.
 
-It provides instant, automated, and intelligent support about Innovature’s services, without the need for manual customer handling. It also showcases integration of LLMs with real-time user interfaces.
+It serves as an automated support solution that can be embedded into any web interface to assist users without human intervention. This project also demonstrates how to integrate large language models (LLMs) with dynamic web apps.
 
-## backend :
+## Features : 
 
-In the python terminal-
+Natural language understanding and response generation.
 
-1. create and activate virtual environment :
-   'python -m venv venv'
+Context-aware conversation flow.
 
-2. install dependencies :
+Real-time interaction with React frontend.
+
+Modular backend structure with keyword-based context and scraping.
+
+
+## Backend set up (Flask) :
+
+### Prerequisites :
+
+Python 3.8+
+
+Chrome browser (for Selenium-based scraping)
+
+ChromeDriver (compatible version with installed Chrome)
+
+### Install dependencies :
+
    'pip install flask flask-cors selenium python-dotenv requests'
 
-3. create an env file(.env) : 
+### Set Up Environment Variables : 
+
+Create a .env file in the project root:
    GROQ_API_KEY = 'your api key'
 
-4. run backend :
+### Start the Backend Server :
+
    'python run.py'
+   The server will start at: http://localhost:5000
 
 
-## frontend :
+## Frontend set up (React) :
 
-1. install node modules :
+### Prerequisites :
+
+Node.js (v16 or above)
+
+npm
+
+### Navigate to Frontend Directory :
+
+   'cd frontend'
+
+### Install node modules :
+
    'npm install'
 
-2. run frontend :
-   'npm start'
+### Run frontend :
 
-3. Visit: http://localhost:3000
+   'npm start'
+   The frontend will run at: http://localhost:3000
+
+
+## Usage :
+
+Once both backend and frontend are running :
+
+Open your browser and go to: http://localhost:3000
+
+Interact with the chatbot UI
+
+Messages are sent to the Flask backend → forwarded to Groq API → response returned and displayed in the UI.
+
+## Tech stack : 
+
+Frontend: React, HTML, CSS, JavaScript
+
+Backend: Flask, Python, Selenium
+
+LLM Provider: Groq API (meta-llama/llama-4-scout-17b-16e-instruct model)
+
+Environment: dotenv
+
 
 
 
